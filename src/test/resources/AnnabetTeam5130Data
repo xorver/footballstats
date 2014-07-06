@@ -1,0 +1,458 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml2/DTD/xhtml1-strict.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+		<head>
+			<title>Avangard Kursk -  : AnnaBet.com</title>
+			<META HTTP-EQUIV="Content-Language" Content="pl">
+<meta name="robots" content="noarchive">
+		<link rel="stylesheet" type="text/css" href="/img/annabet.css">
+		<link rel="stylesheet" media="all" type="text/css" href="/img/menu_style.css" />
+		<!--[if IE]>
+		<link rel="stylesheet" media="all" type="text/css" href="/img/ie.css" />
+		<![endif]-->
+		<script language="JavaScript" type="text/javascript" src="/img/javascripts/ajax_search.js"></script><script type="text/javascript">
+			function clickclear(thisfield, defaulttext) {
+			if (thisfield.value == defaulttext) {
+			thisfield.value = "";
+			}
+			}
+			function clickrecall(thisfield, defaulttext) {
+			if (thisfield.value == "") {
+			thisfield.value = defaulttext;
+			}
+			}
+			</script>
+		<script type="text/javascript" language="JavaScript" src="/img/javascripts/overlib/overlib.js"></script>
+
+		  <!-- calendar stylesheet -->
+		  <link rel="stylesheet" type="text/css" media="all" href="/img/javascripts/calendar/skins/aqua/theme.css" title="Aqua" />
+
+		  <!-- main calendar program -->
+		  <script type="text/javascript" src="/img/javascripts/calendar/calendar.js"></script>
+
+		  <!-- language for the calendar -->
+		  <script type="text/javascript" src="/img/javascripts/calendar/lang/calendar-pl.js"></script>
+
+		  <!-- the following script defines the Calendar.setup helper function, which makes
+			   adding a calendar a matter of 1 or 2 lines of code. -->
+		  <script type="text/javascript" src="/img/javascripts/calendar/calendar-setup.js"></script><script type="text/javascript" src="/img/javascripts/jquery.js"></script><script type="text/javascript" src="/img/javascripts/jquery.collapse.js"></script>
+													<script type="text/javascript" src="/img/javascripts/jquery.collapse_storage.js"></script>
+		<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="/img/javascripts/jqplot/excanvas.min.js"></script><![endif]-->
+
+	  <script language="javascript" type="text/javascript" src="/img/javascripts/jqplot/jquery.jqplot.min.js"></script>
+	  <link rel="stylesheet" type="text/css" href="/img/javascripts/jqplot/jquery.jqplot.min.css" />
+	  <script class="code" type="text/javascript">
+		$(document).ready(function(){
+	  		var plot1 = $.jqplot ('chart1', [[[0,0],[1,-1],[2,-2],[3,-3],[4,-3],[5,-4],[6,-5],[7,-4],[8,-2],[9,1],[10,2]]],
+			{ title:'Avangard Kursk performance', axes:{xaxis:{min:0, label:'15.04.2014 - 05.06.2014'}, yaxis:{label:''}}, series:[{color:'#dcdfe0'}]
+			, grid:{background:'#ffffff', borderWidth:1.0}, seriesDefaults:{showMarker:false}
+			});
+		});
+		</script>
+
+		<script type="text/javascript">
+		<!--
+		function popup(url)
+		{
+		 var width  = 650;
+		 var height = screen.height/1.2;
+		 var left   = (screen.width  - width)/2;
+		 var top    = (screen.height - height)/2;
+		 var params = 'width='+width+', height='+height;
+		 params += ', top='+top+', left='+left;
+		 params += ', directories=no';
+		 params += ', location=yes';
+		 params += ', menubar=no';
+		 params += ', resizable=yes';
+		 params += ', scrollbars=yes';
+		 params += ', status=yes';
+		 params += ', toolbar=no';
+		 newwin=window.open(url,'windowname5', params);
+		 if (window.focus) {newwin.focus()}
+		 return false;
+		}
+		// -->
+		</script><script type="text/javascript">
+				<!--
+			$(document).ready(function() {
+					 $("#ajaxnews").load('/news/ajaxnews.php?mode=gr2&teams[]=5130&teams[]=1&_language=pl&cat=1&newsamount=6' + '&' + Math.random());
+				   var refreshId = setInterval(function() {
+					  $("#ajaxnews").load('/news/ajaxnews.php?mode=gr2&teams[]=5130&teams[]=1&_language=pl&cat=1&newsamount=6' + '&' + Math.random());
+				   }, 120000);
+				});
+				// -->
+				</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8044705-1', 'annabet.com');
+  ga('send', 'pageview');
+
+</script>
+		</head><body>
+		<table cellspacing="0" cellpadding="0" border="0" height="100%" align="center"><tr valign="top"><td>
+
+		<table cellspacing="0" cellpadding="0" border="0" width="100%" height="72">
+		<tr>
+		<td width="234" valign="center"><a title="Główna" href="/">
+		<img src="/img/img/annabet_text_logo.png" alt="AnnaBet.com" width="234" height="31" border="0"></a><br><span class="small">&gt;&gt;</span> <a href="http://annabet.com/blog/world-cup-betting-bonuses/"><span class="csgoal">World Cup Betting Bonuses</span></a></td>
+		<td align="center" valign="center">
+				<iframe id='a2da389d' name='a2da389d' src='/ads/www/delivery/afr.php?zoneid=1&amp;target=_blank&amp;cb=373&amp;country=PL' framespacing='0' frameborder='no' scrolling='no' width='468' height='60' allowtransparency='true'>
+				<a href='/ads/www/delivery/ck.php?n=a1fe7882&amp;cb=121&amp;country=PL' target='_blank'>
+				<img src='/ads/www/delivery/avw.php?zoneid=1&amp;cb=726&amp;n=a1fe7882&amp;country=PL' border='0' alt='' /></a>
+				</iframe></td>
+
+		</tr>
+		<tr><td colspan="2" width="100%"><div id="container">
+				<ul id="navigation-1"><li><a href="/pl/" title="Główna">Główna</a></li><li><a href="/pl/tools/" title="Narzędzia">Narzędzia</a><ul class="navigation-2"><li><a href="/pl/poissoned/asianhc.php" title="1x2->AsianHC">1x2->AsianHC</a></li><li><a href="/pl/tools/1x2_to_ML/" title="1x2->Moneyline">1x2->Moneyline</a></li><li><a href="/pl/tools/Bet_Simulator/" title="Bet Simulator">Bet Simulator</a></li><li><a href="/pl/tools/BetExTool/" title="BetExTool">BetExTool</a></li><li><a href="/pl/oddcomp/?w=soccerstats&booker=12" title="Porównanie Kursów">Porównanie Kursów</a></li><li><a href="/pl/poissoned/" title="PoissoNed!">PoissoNed!</a></li><li><a href="/pl/poissoned/ultimate.php" title="PoissoNed! Umt">PoissoNed! Umt</a></li><li><a href="/pl/tools/Outright/" title="Outright Calculator">Outright Calculator</a></li><li><a href="/pl/tools/Randomizer/" title="Randomizer">Randomizer</a></li><li><a href="/pl/tools/Wizard_Of_Odds/" title="Wizard Of Odds">Wizard Of Odds</a></li></ul></li><li><a href="/pl/hockeystats/" title="Hokejstat">Hokejstat</a><ul class="navigation-2"><li><a href="/pl/hockeystats/" title="Statystyki">Statystyki</a></li><li><a href="/pl/hockeystats/livescore.php" title="Live Scores">Live Scores</a></li><li><a href="/pl/hockeystats/results_0.html" title="Wyniki">Wyniki</a></li><li><a href="/pl/hockeystats/results_search.php" title="Results search">Results search</a></li><li><a href="/pl/oddcomp/?w=hockeystats&booker=12" title="Porównanie Kursów">Porównanie Kursów</a></li><li><a href="/pl/ihwc/" title="Mistrzostwa świata">Mistrzostwa świata</a></li><li><a href="/pl/icehockey_olympics/" title="Olimpiada">Olimpiada</a></li></ul></li><li><a href="/pl/soccerstats/" title="Piłka nożna">Piłka nożna</a><ul class="navigation-2"><li><a href="/pl/soccerstats/" title="Statystyki">Statystyki</a></li><li><a href="/pl/soccerstats/livescore.php" title="Live Scores">Live Scores</a></li><li><a href="/pl/soccerstats/results_0.html" title="Wyniki">Wyniki</a></li><li><a href="/pl/soccerstats/results_search.php" title="Results search">Results search</a></li><li><a href="/pl/oddcomp/?w=soccerstats&booker=12" title="Porównanie Kursów">Porównanie Kursów</a></li><li><a href="/pl/world_cup/" title="World Cup 2014">World Cup 2014</a></li><li><a href="/pl/euro/" title="Euro 2016">Euro 2016</a></li><li><a href="/pl/africa_cup_of_nations/" title="Africa Cup of N.">Africa Cup of N.</a></li><li><a href="/pl/world_cup_u20/" title="World Cup U20">World Cup U20</a></li><li><a href="/pl/euro_u17/" title="Euro U17">Euro U17</a></li><li><a href="/pl/euro_u21/" title="Euro U21">Euro U21</a></li></ul></li><li><a href="/pl/basketballstats/" title="Koszykówka">Koszykówka</a><ul class="navigation-2"><li><a href="/pl/basketballstats/" title="Statystyki">Statystyki</a></li><li><a href="/pl/basketballstats/livescore.php" title="Live Scores">Live Scores</a></li><li><a href="/pl/basketballstats/results_0.html" title="Wyniki">Wyniki</a></li><li><a href="/pl/basketballstats/results_search.php" title="Results search">Results search</a></li><li><a href="/pl/oddcomp/?w=basketballstats&booker=12" title="Porównanie Kursów">Porównanie Kursów</a></li></ul></li><li><a href="" title="Więcej...">Więcej...</a><ul class="navigation-2"><li><a href="/pl/baseballstats/" title="Baseball">Baseball</a></li><li><a href="/pl/livescore/" title="Live Scores">Live Scores</a></li><li><a href="http://annabet.com/pl/m/" title="Mobile">Mobile</a></li><li><a href="/blog/" title="Blog">Blog</a></li><li><a href="/store/" title="Web Store">Web Store</a></li><li><a href="/pl/contact/" title="Kontakt">Kontakt</a></li></ul></li><li><a href="/pl/soccerstats/h2h.php?team1=5130&amp;team2=1" title="<img width=20 height=12 src=/img/img/flags/pl.gif border=0> Languages &nbsp;&nbsp;&nbsp;&nbsp;"><img width=20 height=12 src=/img/img/flags/pl.gif border=0> Languages &nbsp;&nbsp;&nbsp;&nbsp;</a><ul class="navigation-2"><li><a href="/en/soccerstats/h2h.php?team1=5130&amp;team2=1" title="<img width=20 height=12 src=/img/img/flags/en.gif border=0> English &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"><img width=20 height=12 src=/img/img/flags/en.gif border=0> English &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><li><a href="/es/soccerstats/h2h.php?team1=5130&amp;team2=1" title="<img width=20 height=12 src=/img/img/flags/es.gif border=0> Español &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"><img width=20 height=12 src=/img/img/flags/es.gif border=0> Español &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><li><a href="/it/soccerstats/h2h.php?team1=5130&amp;team2=1" title="<img width=20 height=12 src=/img/img/flags/it.gif border=0> Italiano &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"><img width=20 height=12 src=/img/img/flags/it.gif border=0> Italiano &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><li><a href="/ru/soccerstats/h2h.php?team1=5130&amp;team2=1" title="<img width=20 height=12 src=/img/img/flags/ru.gif border=0> Русский &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"><img width=20 height=12 src=/img/img/flags/ru.gif border=0> Русский &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><li><a href="/ua/soccerstats/h2h.php?team1=5130&amp;team2=1" title="<img width=20 height=12 src=/img/img/flags/ua.gif border=0> Українська &nbsp;&nbsp;&nbsp;&nbsp;"><img width=20 height=12 src=/img/img/flags/ua.gif border=0> Українська &nbsp;&nbsp;&nbsp;&nbsp;</a></li><li><a href="/pl/soccerstats/h2h.php?team1=5130&amp;team2=1" title="<img width=20 height=12 src=/img/img/flags/pl.gif border=0> Polski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"><img width=20 height=12 src=/img/img/flags/pl.gif border=0> Polski &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><li><a href="/sl/soccerstats/h2h.php?team1=5130&amp;team2=1" title="<img width=20 height=12 src=/img/img/flags/sl.gif border=0> Slovenščina &nbsp;&nbsp;&nbsp;&nbsp;"><img width=20 height=12 src=/img/img/flags/sl.gif border=0> Slovenščina &nbsp;&nbsp;&nbsp;&nbsp;</a></li><li><a href="/se/soccerstats/h2h.php?team1=5130&amp;team2=1" title="<img width=20 height=12 src=/img/img/flags/se.gif border=0> Svenska &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"><img width=20 height=12 src=/img/img/flags/se.gif border=0> Svenska &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><li><a href="/cz/soccerstats/h2h.php?team1=5130&amp;team2=1" title="<img width=20 height=12 src=/img/img/flags/cz.gif border=0> Česky &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"><img width=20 height=12 src=/img/img/flags/cz.gif border=0> Česky &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><li><a href="/sk/soccerstats/h2h.php?team1=5130&amp;team2=1" title="<img width=20 height=12 src=/img/img/flags/sk.gif border=0> Slovensky &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"><img width=20 height=12 src=/img/img/flags/sk.gif border=0> Slovensky &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><li><a href="/fi/soccerstats/h2h.php?team1=5130&amp;team2=1" title="<img width=20 height=12 src=/img/img/flags/fi.gif border=0> Suomi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"><img width=20 height=12 src=/img/img/flags/fi.gif border=0> Suomi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li></ul></li></ul>
+			</div></td></tr></table><div class="userbox"><b>Witamy</b>
+					<form action="/pl/forum/index.php?action=login2" method="post" accept-charset="UTF-8">
+					<input type="text" name="user" value="Użytkownik" size="14" onclick="clickclear(this, 'Użytkownik')" onblur="clickrecall(this,'Użytkownik')" /> Hasło
+					<input type="password" name="passwrd" size="12"/>
+					<input type="hidden" name="cookielength" value="-1" />
+					<button type="submit" value="Login" /><img border="0" align="absmiddle" title="Login" alt="Login" src="/img/is/login_16.png" width=16 height=16 /></button>
+				</form>	<a title="Zarejestruj się lub zaloguj." href="/pl/register/"><img border="0" align="absmiddle" title="Zarejestruj się lub zaloguj." alt="Zarejestruj się lub zaloguj." src="/img/is/register_24.png" width=24 height=24 /></a> <a title="Przewodnik" target="_blank" href="/blog/site-registration-guide/"><img border="0" align="absmiddle" title="" alt="" src="/img/is/help_16_dis.png" width=16 height=16 /></a> &nbsp;&nbsp;<a title="Web Store" href="/store/index.php?route=common/home&language=pl&currency=PLN"><img border="0" align="absmiddle" title="Web Store" alt="Web Store" src="/img/is/shopping_cart_24.png" width=24 height=24 /></a> <a title="Blog" href="/blog/"><img border="0" align="absmiddle" title="Blog" alt="Blog" src="/img/is/news_24.png" width=24 height=24 /></a> &nbsp;&nbsp; <a target="_blank" title="Facebook" href="https://www.facebook.com/AnnaBetcom"><img border="0" align="absmiddle" title="Facebook" alt="Facebook" src="/img/is/facebook_24.png" width=24 height=24 /></a>
+						&nbsp; <a target="_blank" title="Twitter" href="https://twitter.com/AnnaBetcom"><img border="0" align="absmiddle" title="Twitter" alt="Twitter" src="/img/is/twitter_24.png" width=24 height=24 /></a>
+						&nbsp; <a target="_blank" title="Napisz do Nas" href="/pl/contact/"><img border="0" align="absmiddle" title="Napisz do Nas" alt="Napisz do Nas" src="/img/is/email_24.png" width=24 height=24 /></a></div><!-- table starts -->
+		<table cellspacing="0" cellpadding="5" border="0" width="900">
+		<tr><td valign="top" bgcolor="#fafafa" class="boxitxt">
+		<font><table class="nicelight" align="center" width="98%" cellpadding="3"><tr><td colspan="3" align="center">
+	</td></tr>
+	<tr>
+	<td align="center" valign="middle" width="50%"><a class="highlight"><img align="absmiddle" border="0" src="/img/img/countries/ru.gif"> Avangard Kursk</a></td><td align="center"></td><td align="center" valign="middle" width="50%"><a class="highlight"><img align="absmiddle" border="0" src="/img/img/globe-medium-green.png"> </a></td></tr><tr><td colspan="3" align="center">
+				<input type="text" size="30" value="Search: Zbliżające się Spotkania" onclick="clickclear(this, 'Search: Zbliżające się Spotkania')" onblur="clickrecall(this,'Search: Zbliżające się Spotkania')" id="txtSearch" name="txtSearch" alt="Search Criteria" onkeyup="searchSuggest();" autocomplete="off" />
+				<div id="search_suggest"></div> <img align="absmiddle" border="0" src="/img/img/bullet_green.gif"> Wygrana
+			<img align="absmiddle" border="0" src="/img/img/bullet_yellow.gif"> Remis <img align="absmiddle" border="0" src="/img/img/bullet_red.gif"> Przegrana&nbsp; <a><b>Goals</b></a> &nbsp;&nbsp;&nbsp;<a href="/pl/statistics/customize.php"><img border="0" align="absmiddle" title="" alt="" src="/img/is/config_16.png" width=16 height=16 /> Dostosuj Statystyki</a>&nbsp;&nbsp;<a href="/pl/shop/#terms">Regulamin</a><div id="stats_filter" data-collapse="accordion persist"><h2 class="collapse"><img border="0" align="absmiddle" title="" alt="" src="/img/is/filter_data_32.png" width=32 height=32 /> &nbsp;Stats filter (Requires subscription)</h2><div><form action="/store/index.php?route=product/category&path=65&language=pl&currency=PLN" METHOD="POST">
+				<table align="center" border="0"><tr><td>
+				<input type="radio" name="gametypes" value="all" CHECKED> Archiwum spotkań <input type="radio" name="gametypes" value="homeaway"> <img border="0" align="absmiddle" title="" alt="" src="/img/is/home_16.png" width=16 height=16 /> <span class="blue">Avangard Kursk</span> Liczba gier u siebie,
+			<span class="blue"></span> Liczba gier na wyjeździe<br><img border="0" align="absmiddle" title="" alt="" src="/img/is/clock_16.png" width=16 height=16 /> Live Betting <select name="home1stperiodlead" style="background-color: white"><option value="">1. Half</option><option value="5">Avangard Kur 5 goal lead -  5 goals down after 1. Half</option><option value="4">Avangard Kur 4 goal lead -  4 goals down after 1. Half</option><option value="3">Avangard Kur 3 goal lead -  3 goals down after 1. Half</option><option value="2">Avangard Kur 2 goal lead -  2 goals down after 1. Half</option><option value="1">Avangard Kur 1 goal lead -  1 goals down after 1. Half</option><option value="0">Avangard Kur 0 goal lead -  0 goals down after 1. Half</option><option value="-1" style="background-color: #f3f3f3">Avangard Kur 1 goals down -  1 goal lead after 1. Half</option><option value="-2" style="background-color: #f3f3f3">Avangard Kur 2 goals down -  2 goal lead after 1. Half</option><option value="-3" style="background-color: #f3f3f3">Avangard Kur 3 goals down -  3 goal lead after 1. Half</option><option value="-4" style="background-color: #f3f3f3">Avangard Kur 4 goals down -  4 goal lead after 1. Half</option><option value="-5" style="background-color: #f3f3f3">Avangard Kur 5 goals down -  5 goal lead after 1. Half</option><option value="0-0">Avangard Kur 0-0,  0-0 after 1. Half</option><option value="0-1">Avangard Kur 0-1,  1-0 after 1. Half</option><option value="0-2">Avangard Kur 0-2,  2-0 after 1. Half</option><option value="0-3">Avangard Kur 0-3,  3-0 after 1. Half</option><option value="0-4">Avangard Kur 0-4,  4-0 after 1. Half</option><option value="0-5">Avangard Kur 0-5,  5-0 after 1. Half</option><option value="1-0">Avangard Kur 1-0,  0-1 after 1. Half</option><option value="1-1">Avangard Kur 1-1,  1-1 after 1. Half</option><option value="1-2">Avangard Kur 1-2,  2-1 after 1. Half</option><option value="1-3">Avangard Kur 1-3,  3-1 after 1. Half</option><option value="1-4">Avangard Kur 1-4,  4-1 after 1. Half</option><option value="1-5">Avangard Kur 1-5,  5-1 after 1. Half</option><option value="2-0">Avangard Kur 2-0,  0-2 after 1. Half</option><option value="2-1">Avangard Kur 2-1,  1-2 after 1. Half</option><option value="2-2">Avangard Kur 2-2,  2-2 after 1. Half</option><option value="2-3">Avangard Kur 2-3,  3-2 after 1. Half</option><option value="2-4">Avangard Kur 2-4,  4-2 after 1. Half</option><option value="2-5">Avangard Kur 2-5,  5-2 after 1. Half</option><option value="3-0">Avangard Kur 3-0,  0-3 after 1. Half</option><option value="3-1">Avangard Kur 3-1,  1-3 after 1. Half</option><option value="3-2">Avangard Kur 3-2,  2-3 after 1. Half</option><option value="3-3">Avangard Kur 3-3,  3-3 after 1. Half</option><option value="3-4">Avangard Kur 3-4,  4-3 after 1. Half</option><option value="3-5">Avangard Kur 3-5,  5-3 after 1. Half</option><option value="4-0">Avangard Kur 4-0,  0-4 after 1. Half</option><option value="4-1">Avangard Kur 4-1,  1-4 after 1. Half</option><option value="4-2">Avangard Kur 4-2,  2-4 after 1. Half</option><option value="4-3">Avangard Kur 4-3,  3-4 after 1. Half</option><option value="4-4">Avangard Kur 4-4,  4-4 after 1. Half</option><option value="4-5">Avangard Kur 4-5,  5-4 after 1. Half</option><option value="5-0">Avangard Kur 5-0,  0-5 after 1. Half</option><option value="5-1">Avangard Kur 5-1,  1-5 after 1. Half</option><option value="5-2">Avangard Kur 5-2,  2-5 after 1. Half</option><option value="5-3">Avangard Kur 5-3,  3-5 after 1. Half</option><option value="5-4">Avangard Kur 5-4,  4-5 after 1. Half</option><option value="5-5">Avangard Kur 5-5,  5-5 after 1. Half</option></select><br><span class="blue">Avangard Kursk</span> 1x2 kursy przynajmniej <select name="odds_home_min" style="background-color: white"><option value=""></option><option value="100">1.00</option><option value="105">1.05</option><option value="110">1.10</option><option value="115">1.15</option><option value="120">1.20</option><option value="125">1.25</option><option value="130">1.30</option><option value="135">1.35</option><option value="140">1.40</option><option value="145">1.45</option><option value="150">1.50</option><option value="155">1.55</option><option value="160">1.60</option><option value="165">1.65</option><option value="170">1.70</option><option value="175">1.75</option><option value="180">1.80</option><option value="185">1.85</option><option value="190">1.90</option><option value="195">1.95</option><option value="200">2.00</option><option value="200">2.00</option><option value="210">2.10</option><option value="220">2.20</option><option value="230">2.30</option><option value="240">2.40</option><option value="250">2.50</option><option value="260">2.60</option><option value="270">2.70</option><option value="280">2.80</option><option value="290">2.90</option><option value="300">3.00</option><option value="310">3.10</option><option value="320">3.20</option><option value="330">3.30</option><option value="340">3.40</option><option value="350">3.50</option><option value="360">3.60</option><option value="370">3.70</option><option value="380">3.80</option><option value="390">3.90</option><option value="400">4.00</option><option value="410">4.10</option><option value="420">4.20</option><option value="430">4.30</option><option value="440">4.40</option><option value="450">4.50</option><option value="460">4.60</option><option value="470">4.70</option><option value="480">4.80</option><option value="490">4.90</option><option value="500">5.00</option><option value="525">5.25</option><option value="550">5.50</option><option value="575">5.75</option><option value="600">6.00</option><option value="625">6.25</option><option value="650">6.50</option><option value="675">6.75</option><option value="700">7.00</option><option value="725">7.25</option><option value="750">7.50</option><option value="775">7.75</option><option value="800">8.00</option><option value="825">8.25</option><option value="850">8.50</option><option value="875">8.75</option><option value="900">9.00</option><option value="925">9.25</option><option value="950">9.50</option><option value="975">9.75</option><option value="1000">10.00</option><option value="1025">10.25</option><option value="1050">10.50</option><option value="1075">10.75</option><option value="1100">11.00</option><option value="1125">11.25</option><option value="1150">11.50</option><option value="1175">11.75</option><option value="1200">12.00</option><option value="1225">12.25</option><option value="1250">12.50</option><option value="1275">12.75</option><option value="1300">13.00</option><option value="1325">13.25</option><option value="1350">13.50</option><option value="1375">13.75</option><option value="1400">14.00</option><option value="1425">14.25</option><option value="1450">14.50</option><option value="1475">14.75</option><option value="1500">15.00</option><option value="1525">15.25</option><option value="1550">15.50</option><option value="1575">15.75</option><option value="1600">16.00</option><option value="1625">16.25</option><option value="1650">16.50</option><option value="1675">16.75</option><option value="1700">17.00</option><option value="1725">17.25</option><option value="1750">17.50</option><option value="1775">17.75</option><option value="1800">18.00</option><option value="1825">18.25</option><option value="1850">18.50</option><option value="1875">18.75</option><option value="1900">19.00</option><option value="1925">19.25</option><option value="1950">19.50</option><option value="1975">19.75</option><option value="2000">20.00</option></select> najwięcej <select name="odds_home_max" style="background-color: white"><option value=""></option><option value="105">1.05</option><option value="110">1.10</option><option value="115">1.15</option><option value="120">1.20</option><option value="125">1.25</option><option value="130">1.30</option><option value="135">1.35</option><option value="140">1.40</option><option value="145">1.45</option><option value="150">1.50</option><option value="155">1.55</option><option value="160">1.60</option><option value="165">1.65</option><option value="170">1.70</option><option value="175">1.75</option><option value="180">1.80</option><option value="185">1.85</option><option value="190">1.90</option><option value="195">1.95</option><option value="200">2.00</option><option value="200">2.00</option><option value="210">2.10</option><option value="220">2.20</option><option value="230">2.30</option><option value="240">2.40</option><option value="250">2.50</option><option value="260">2.60</option><option value="270">2.70</option><option value="280">2.80</option><option value="290">2.90</option><option value="300">3.00</option><option value="310">3.10</option><option value="320">3.20</option><option value="330">3.30</option><option value="340">3.40</option><option value="350">3.50</option><option value="360">3.60</option><option value="370">3.70</option><option value="380">3.80</option><option value="390">3.90</option><option value="400">4.00</option><option value="410">4.10</option><option value="420">4.20</option><option value="430">4.30</option><option value="440">4.40</option><option value="450">4.50</option><option value="460">4.60</option><option value="470">4.70</option><option value="480">4.80</option><option value="490">4.90</option><option value="500">5.00</option><option value="525">5.25</option><option value="550">5.50</option><option value="575">5.75</option><option value="600">6.00</option><option value="625">6.25</option><option value="650">6.50</option><option value="675">6.75</option><option value="700">7.00</option><option value="725">7.25</option><option value="750">7.50</option><option value="775">7.75</option><option value="800">8.00</option><option value="825">8.25</option><option value="850">8.50</option><option value="875">8.75</option><option value="900">9.00</option><option value="925">9.25</option><option value="950">9.50</option><option value="975">9.75</option><option value="1000">10.00</option><option value="1025">10.25</option><option value="1050">10.50</option><option value="1075">10.75</option><option value="1100">11.00</option><option value="1125">11.25</option><option value="1150">11.50</option><option value="1175">11.75</option><option value="1200">12.00</option><option value="1225">12.25</option><option value="1250">12.50</option><option value="1275">12.75</option><option value="1300">13.00</option><option value="1325">13.25</option><option value="1350">13.50</option><option value="1375">13.75</option><option value="1400">14.00</option><option value="1425">14.25</option><option value="1450">14.50</option><option value="1475">14.75</option><option value="1500">15.00</option><option value="1525">15.25</option><option value="1550">15.50</option><option value="1575">15.75</option><option value="1600">16.00</option><option value="1625">16.25</option><option value="1650">16.50</option><option value="1675">16.75</option><option value="1700">17.00</option><option value="1725">17.25</option><option value="1750">17.50</option><option value="1775">17.75</option><option value="1800">18.00</option><option value="1825">18.25</option><option value="1850">18.50</option><option value="1875">18.75</option><option value="1900">19.00</option><option value="1925">19.25</option><option value="1950">19.50</option><option value="1975">19.75</option><option value="2000">20.00</option><option value="100000">1000.00</option></select> Select league <select name="homeleague" style="background-color: white"><option value="">Archiwum spotkań</option><br><option value="164">Rosyjska 1st Division</option><option value="395">Russian 2. Division Center</option><option value="165">Rosyjski puchar</option><option value="110">Mecze towarzyskie</option></select><select name="homeseason" style="background-color: white"><option value=""></option><br><option value="199">2013-2014</option><option value="195">2013</option><option value="194">2012-2013</option><option value="192">2011-2012</option><option value="178">2010</option><option value="190">2010-2011</option><option value="170">2009-2010</option><option value="13">2007</option><option value="1">2007-2008</option><option value="14">2006</option><option value="15">2005</option></select><select name="homesubseason" style="background-color: white"><option value=""></option><br><option value=""></option><option value="999">Regular Season / Group Stage</option><option value="18">Playoffs</option><option value="44">1/16 Finals</option><option value="99">1/32 Finals</option></select><br><span class="blue"></span> 1x2 kursy przynajmniej <select name="odds_away_min" style="background-color: white"><option value=""></option><option value="100">1.00</option><option value="105">1.05</option><option value="110">1.10</option><option value="115">1.15</option><option value="120">1.20</option><option value="125">1.25</option><option value="130">1.30</option><option value="135">1.35</option><option value="140">1.40</option><option value="145">1.45</option><option value="150">1.50</option><option value="155">1.55</option><option value="160">1.60</option><option value="165">1.65</option><option value="170">1.70</option><option value="175">1.75</option><option value="180">1.80</option><option value="185">1.85</option><option value="190">1.90</option><option value="195">1.95</option><option value="200">2.00</option><option value="200">2.00</option><option value="210">2.10</option><option value="220">2.20</option><option value="230">2.30</option><option value="240">2.40</option><option value="250">2.50</option><option value="260">2.60</option><option value="270">2.70</option><option value="280">2.80</option><option value="290">2.90</option><option value="300">3.00</option><option value="310">3.10</option><option value="320">3.20</option><option value="330">3.30</option><option value="340">3.40</option><option value="350">3.50</option><option value="360">3.60</option><option value="370">3.70</option><option value="380">3.80</option><option value="390">3.90</option><option value="400">4.00</option><option value="410">4.10</option><option value="420">4.20</option><option value="430">4.30</option><option value="440">4.40</option><option value="450">4.50</option><option value="460">4.60</option><option value="470">4.70</option><option value="480">4.80</option><option value="490">4.90</option><option value="500">5.00</option><option value="525">5.25</option><option value="550">5.50</option><option value="575">5.75</option><option value="600">6.00</option><option value="625">6.25</option><option value="650">6.50</option><option value="675">6.75</option><option value="700">7.00</option><option value="725">7.25</option><option value="750">7.50</option><option value="775">7.75</option><option value="800">8.00</option><option value="825">8.25</option><option value="850">8.50</option><option value="875">8.75</option><option value="900">9.00</option><option value="925">9.25</option><option value="950">9.50</option><option value="975">9.75</option><option value="1000">10.00</option><option value="1025">10.25</option><option value="1050">10.50</option><option value="1075">10.75</option><option value="1100">11.00</option><option value="1125">11.25</option><option value="1150">11.50</option><option value="1175">11.75</option><option value="1200">12.00</option><option value="1225">12.25</option><option value="1250">12.50</option><option value="1275">12.75</option><option value="1300">13.00</option><option value="1325">13.25</option><option value="1350">13.50</option><option value="1375">13.75</option><option value="1400">14.00</option><option value="1425">14.25</option><option value="1450">14.50</option><option value="1475">14.75</option><option value="1500">15.00</option><option value="1525">15.25</option><option value="1550">15.50</option><option value="1575">15.75</option><option value="1600">16.00</option><option value="1625">16.25</option><option value="1650">16.50</option><option value="1675">16.75</option><option value="1700">17.00</option><option value="1725">17.25</option><option value="1750">17.50</option><option value="1775">17.75</option><option value="1800">18.00</option><option value="1825">18.25</option><option value="1850">18.50</option><option value="1875">18.75</option><option value="1900">19.00</option><option value="1925">19.25</option><option value="1950">19.50</option><option value="1975">19.75</option><option value="2000">20.00</option></select> najwięcej <select name="odds_away_max" style="background-color: white"><option value=""></option><option value="105">1.05</option><option value="110">1.10</option><option value="115">1.15</option><option value="120">1.20</option><option value="125">1.25</option><option value="130">1.30</option><option value="135">1.35</option><option value="140">1.40</option><option value="145">1.45</option><option value="150">1.50</option><option value="155">1.55</option><option value="160">1.60</option><option value="165">1.65</option><option value="170">1.70</option><option value="175">1.75</option><option value="180">1.80</option><option value="185">1.85</option><option value="190">1.90</option><option value="195">1.95</option><option value="200">2.00</option><option value="200">2.00</option><option value="210">2.10</option><option value="220">2.20</option><option value="230">2.30</option><option value="240">2.40</option><option value="250">2.50</option><option value="260">2.60</option><option value="270">2.70</option><option value="280">2.80</option><option value="290">2.90</option><option value="300">3.00</option><option value="310">3.10</option><option value="320">3.20</option><option value="330">3.30</option><option value="340">3.40</option><option value="350">3.50</option><option value="360">3.60</option><option value="370">3.70</option><option value="380">3.80</option><option value="390">3.90</option><option value="400">4.00</option><option value="410">4.10</option><option value="420">4.20</option><option value="430">4.30</option><option value="440">4.40</option><option value="450">4.50</option><option value="460">4.60</option><option value="470">4.70</option><option value="480">4.80</option><option value="490">4.90</option><option value="500">5.00</option><option value="525">5.25</option><option value="550">5.50</option><option value="575">5.75</option><option value="600">6.00</option><option value="625">6.25</option><option value="650">6.50</option><option value="675">6.75</option><option value="700">7.00</option><option value="725">7.25</option><option value="750">7.50</option><option value="775">7.75</option><option value="800">8.00</option><option value="825">8.25</option><option value="850">8.50</option><option value="875">8.75</option><option value="900">9.00</option><option value="925">9.25</option><option value="950">9.50</option><option value="975">9.75</option><option value="1000">10.00</option><option value="1025">10.25</option><option value="1050">10.50</option><option value="1075">10.75</option><option value="1100">11.00</option><option value="1125">11.25</option><option value="1150">11.50</option><option value="1175">11.75</option><option value="1200">12.00</option><option value="1225">12.25</option><option value="1250">12.50</option><option value="1275">12.75</option><option value="1300">13.00</option><option value="1325">13.25</option><option value="1350">13.50</option><option value="1375">13.75</option><option value="1400">14.00</option><option value="1425">14.25</option><option value="1450">14.50</option><option value="1475">14.75</option><option value="1500">15.00</option><option value="1525">15.25</option><option value="1550">15.50</option><option value="1575">15.75</option><option value="1600">16.00</option><option value="1625">16.25</option><option value="1650">16.50</option><option value="1675">16.75</option><option value="1700">17.00</option><option value="1725">17.25</option><option value="1750">17.50</option><option value="1775">17.75</option><option value="1800">18.00</option><option value="1825">18.25</option><option value="1850">18.50</option><option value="1875">18.75</option><option value="1900">19.00</option><option value="1925">19.25</option><option value="1950">19.50</option><option value="1975">19.75</option><option value="2000">20.00</option><option value="100000">1000.00</option></select> Select league <select name="awayleague" style="background-color: white"><option value="">Archiwum spotkań</option><br></select><select name="awayseason" style="background-color: white"><option value=""></option><br></select><select name="awaysubseason" style="background-color: white"><option value=""></option><br></select><br>Statystyki Handicap <select name="handicap" style="background-color: white"><option value=""></option><option value="-0.5">Avangard Kursk handicap -0.5 &nbsp;&nbsp; handicap +0.5</option><option value="-1">Avangard Kursk handicap -1.0 &nbsp;&nbsp; handicap +1.0</option><option value="-1.5">Avangard Kursk handicap -1.5 &nbsp;&nbsp; handicap +1.5</option><option value="-2">Avangard Kursk handicap -2.0 &nbsp;&nbsp; handicap +2.0</option><option value="-2.5">Avangard Kursk handicap -2.5 &nbsp;&nbsp; handicap +2.5</option><option value="-3">Avangard Kursk handicap -3.0 &nbsp;&nbsp; handicap +3.0</option><option value="-3.5">Avangard Kursk handicap -3.5 &nbsp;&nbsp; handicap +3.5</option><option value="-4">Avangard Kursk handicap -4.0 &nbsp;&nbsp; handicap +4.0</option><option value="-4.5">Avangard Kursk handicap -4.5 &nbsp;&nbsp; handicap +4.5</option><option value="0.5" style="background-color: #f3f3f3">Avangard Kursk handicap +0.5 &nbsp;&nbsp; handicap -0.5</option><option value="1" style="background-color: #f3f3f3">Avangard Kursk handicap +1.0 &nbsp;&nbsp; handicap -1.0</option><option value="1.5" style="background-color: #f3f3f3">Avangard Kursk handicap +1.5 &nbsp;&nbsp; handicap -1.5</option><option value="2" style="background-color: #f3f3f3">Avangard Kursk handicap +2.0 &nbsp;&nbsp; handicap -2.0</option><option value="2.5" style="background-color: #f3f3f3">Avangard Kursk handicap +2.5 &nbsp;&nbsp; handicap -2.5</option><option value="3" style="background-color: #f3f3f3">Avangard Kursk handicap +3.0 &nbsp;&nbsp; handicap -3.0</option><option value="3.5" style="background-color: #f3f3f3">Avangard Kursk handicap +3.5 &nbsp;&nbsp; handicap -3.5</option><option value="4" style="background-color: #f3f3f3">Avangard Kursk handicap +4.0 &nbsp;&nbsp; handicap -4.0</option><option value="4.5" style="background-color: #f3f3f3">Avangard Kursk handicap +4.5 &nbsp;&nbsp; handicap -4.5</option></select> Ponad / Poniżej <select name="oulimit" style="background-color: white"><option value=""></option><option value="0.5">0.5</option><option value="1">1.0</option><option value="1.5">1.5</option><option value="2">2.0</option><option value="2.5" SELECTED>2.5</option><option value="3">3.0</option><option value="3.5">3.5</option><option value="4">4.0</option><option value="4.5">4.5</option><option value="5">5.0</option><option value="5.5">5.5</option><option value="6">6.0</option><option value="6.5">6.5</option><option value="7">7.0</option><option value="7.5">7.5</option><option value="8">8.0</option><option value="8.5">8.5</option><option value="9">9.0</option><option value="9.5">9.5</option><option value="10">10.0</option><option value="10.5">10.5</option><option value="11">11.0</option><option value="11.5">11.5</option><option value="12">12.0</option><option value="12.5">12.5</option></select><br><img border="0" align="absmiddle" title="Time Machine" alt="Time Machine" src="/img/is/clock_back_32.png" width=32 height=32 /> Before
+			<input type="text" size="14" id="datefilter" name="datefilter" value="YYYY-MM-DD"> <button id="trigger"><img border="0" align="absmiddle" title="" alt="" src="/img/is/calendar_16.png" width=16 height=16 /></button>
+			<input class="submitbutton" onclick="_gaq.push(['_trackEvent', 'Statistics', 'FilterClick', 'UserID: 0']);" type="submit" name="filter" value="Show games">
+				<input class="submitbutton" type="submit" name="clearsubmit" value="Wyczyść Stats filter">
+<input class="submitselected" type="submit" name="Full" value="Pełny Czas Gry"><input class="submitbutton" type="submit" name="1st" value="1. Half"><input class="submitbutton" type="submit" name="2nd" value="2. Half"><input class="submitbutton" type="submit" name="overtime" value="Overtime">
+			</form>
+			</td></tr></table>
+			</td></tr>		<script type="text/javascript">
+				Calendar.setup(
+				{
+		      inputField  : "datefilter",         // ID of the input field
+		      ifFormat    : "%Y-%m-%d",    // the date format
+		      button      : "trigger"       // ID of the button
+			    }
+			  );
+			</script>
+		<tr><td colspan="3" align="center"><a class="mediumbutton" href="/store/index.php?route=product/category&path=65&language=pl&currency=PLN">Statistics Pro : <img border="0" align="absmiddle" title="" alt="" src="/img/is/shopping_cart_16.png" width=16 height=16 /> Kupić od Web Store</a> &nbsp;&nbsp;
+					<a class="mediumbutton" href="/pl/statistics/statistics_pro_demo.php">Demo</a></td></tr>
+			</td></tr></div></div><tr><td colspan="3" class="hl" align="center">Poprzednia Gra </td></tr>
+			<tr><td colspan="3" align="center">
+			<table border="0" align="center" width="100%" cellspacing="0" cellpadding="0"><tr>
+			<td align="right" valign="top"><table border="0" cellspacing="0" cellpadding="0"><tr><td><span class="small">05.06.2014</span></td><td><a title="Russian 2. Division Center  " href="/pl/soccerstats/serie_395_Russian_2._Division_Center.html"><span class="grey small">Russian 2. Div</span></a></td><td><img align="absmiddle" border="0" src="/img/img/bullet_green.gif"></td><td align="right" class="hlteam">Avangard Kursk</td><td> &nbsp;<a target="_blank" title="Avangard Kursk - Lokomotiv Liski Ø kursy 1.64 - 3.77 - 4.41" href="/pl/soccerstats/gamereport_594142_Avangard_Kursk-Lokomotiv_Liski,05.06.2014.html"><b>1 - 0</b></a> &nbsp;</td><td class="team" colspan="2">Lokomotiv Lisk</td></tr>
+<tr><td><span class="small">30.05.2014</span></td><td><a title="Russian 2. Division Center  " href="/pl/soccerstats/serie_395_Russian_2._Division_Center.html"><span class="grey small">Russian 2. Div</span></a></td><td><img align="absmiddle" border="0" src="/img/img/bullet_green.gif"></td><td align="right" class="team">Metallurg-Osko</td><td> &nbsp;<a target="_blank" title="Metallurg-Oskol - Avangard Kursk " href="/pl/soccerstats/gamereport_593193_Metallurg-Oskol-Avangard_Kursk,30.05.2014.html"><b>0 - 3*</b></a> &nbsp;</td><td class="hlteam" colspan="2">Avangard Kursk</td></tr>
+<tr><td><span class="small">25.05.2014</span></td><td><a title="Russian 2. Division Center  " href="/pl/soccerstats/serie_395_Russian_2._Division_Center.html"><span class="grey small">Russian 2. Div</span></a></td><td><img align="absmiddle" border="0" src="/img/img/bullet_green.gif"></td><td align="right" class="hlteam">Avangard Kursk</td><td> &nbsp;<a target="_blank" title="Avangard Kursk - Podolye Podolsky district Ø kursy 1.85 - 3.58 - 3.65" href="/pl/soccerstats/gamereport_592281_Avangard_Kursk-Podolye_Podolsky_district,25.05.2014.html"><b>2 - 0</b></a> &nbsp;</td><td class="team" colspan="2">Podolye Podols</td></tr>
+<tr><td><span class="small">19.05.2014</span></td><td><a title="Russian 2. Division Center  " href="/pl/soccerstats/serie_395_Russian_2._Division_Center.html"><span class="grey small">Russian 2. Div</span></a></td><td><img align="absmiddle" border="0" src="/img/img/bullet_green.gif"></td><td align="right" class="team">Metallurg Vyks</td><td> &nbsp;<a target="_blank" title="Metallurg Vyksa - Avangard Kursk Ø kursy 2.44 - 3.13 - 2.60" href="/pl/soccerstats/gamereport_591057_Metallurg_Vyksa-Avangard_Kursk,19.05.2014.html"><b>1 - 2</b></a> &nbsp;</td><td class="hlteam" colspan="2">Avangard Kursk</td></tr>
+<tr><td><span class="small">13.05.2014</span></td><td><a title="Russian 2. Division Center  " href="/pl/soccerstats/serie_395_Russian_2._Division_Center.html"><span class="grey small">Russian 2. Div</span></a></td><td><img align="absmiddle" border="0" src="/img/img/bullet_red.gif"></td><td align="right" class="hlteam">Avangard Kursk</td><td> &nbsp;<a target="_blank" title="Avangard Kursk - Sokol Saratov Ø kursy 5.50 - 3.79 - 1.49" href="/pl/soccerstats/gamereport_589711_Avangard_Kursk-Sokol_Saratov,13.05.2014.html"><b>2 - 3</b></a> &nbsp;</td><td class="team" colspan="2">Sokol Saratov</td></tr>
+<tr><td><span class="small">08.05.2014</span></td><td><a title="Russian 2. Division Center  " href="/pl/soccerstats/serie_395_Russian_2._Division_Center.html"><span class="grey small">Russian 2. Div</span></a></td><td><img align="absmiddle" border="0" src="/img/img/bullet_red.gif"></td><td align="right" class="team">Zvezda Ryazan</td><td> &nbsp;<a target="_blank" title="Zvezda Ryazan - Avangard Kursk Ø kursy 2.39 - 3.20 - 2.63" href="/pl/soccerstats/gamereport_588154_Zvezda_Ryazan-Avangard_Kursk,08.05.2014.html"><b>1 - 0</b></a> &nbsp;</td><td class="hlteam" colspan="2">Avangard Kursk</td></tr>
+<tr><td><span class="small">02.05.2014</span></td><td><a title="Russian 2. Division Center  " href="/pl/soccerstats/serie_395_Russian_2._Division_Center.html"><span class="grey small">Russian 2. Div</span></a></td><td><img align="absmiddle" border="0" src="/img/img/bullet_yellow.gif"></td><td align="right" class="hlteam">Avangard Kursk</td><td> &nbsp;<a target="_blank" title="Avangard Kursk - FC Fakel Voronezh Ø kursy 4.16 - 3.53 - 1.72" href="/pl/soccerstats/gamereport_586301_Avangard_Kursk-FC_Fakel_Voronezh,02.05.2014.html"><b>2 - 2</b></a> &nbsp;</td><td class="team" colspan="2">FC Fakel Voron</td></tr>
+<tr><td><span class="small">26.04.2014</span></td><td><a title="Russian 2. Division Center  " href="/pl/soccerstats/serie_395_Russian_2._Division_Center.html"><span class="grey small">Russian 2. Div</span></a></td><td><img align="absmiddle" border="0" src="/img/img/bullet_red.gif"></td><td align="right" class="team">Zenit Penza</td><td> &nbsp;<a target="_blank" title="Zenit Penza - Avangard Kursk Ø kursy 2.23 - 3.17 - 2.96" href="/pl/soccerstats/gamereport_584844_Zenit_Penza-Avangard_Kursk,26.04.2014.html"><b>2 - 1</b></a> &nbsp;</td><td class="hlteam" colspan="2">Avangard Kursk</td></tr>
+<tr><td><span class="small">21.04.2014</span></td><td><a title="Russian 2. Division Center  " href="/pl/soccerstats/serie_395_Russian_2._Division_Center.html"><span class="grey small">Russian 2. Div</span></a></td><td><img align="absmiddle" border="0" src="/img/img/bullet_red.gif"></td><td align="right" class="hlteam">Avangard Kursk</td><td> &nbsp;<a target="_blank" title="Avangard Kursk - FC Kaluga Ø kursy 2.04 - 3.21 - 3.29" href="/pl/soccerstats/gamereport_580270_Avangard_Kursk-FC_Kaluga,21.04.2014.html"><b>0 - 1</b></a> &nbsp;</td><td class="team" colspan="2">FC Kaluga</td></tr>
+<tr><td><span class="small">15.04.2014</span></td><td><a title="Russian 2. Division Center  " href="/pl/soccerstats/serie_395_Russian_2._Division_Center.html"><span class="grey small">Russian 2. Div</span></a></td><td><img align="absmiddle" border="0" src="/img/img/bullet_red.gif"></td><td align="right" class="hlteam">Avangard Kursk</td><td> &nbsp;<a target="_blank" title="Avangard Kursk - FC Vityaz Podolsk Ø kursy 2.94 - 3.27 - 2.21" href="/pl/soccerstats/gamereport_578635_Avangard_Kursk-FC_Vityaz_Podolsk,15.04.2014.html"><b>0 - 1</b></a> &nbsp;</td><td class="team" colspan="2">FC Vityaz Podo</td></tr>
+<tr><td align="right"><span class="small">1x2</span></td><td colspan="6" align="center"><img align="absmiddle" border="0" src="/img/img/bullet_green.gif">4 <img align="absmiddle" border="0" src="/img/img/bullet_yellow.gif">1 <img align="absmiddle" border="0" src="/img/img/bullet_red.gif">5 &nbsp;<a><b>13 - 11</b></a></td></tr><tr><td align="right"><span class="grey small">%</span></td><td colspan="6" align="center"><span class="grey small">40.0% - 10.0% - 50.0%</span></td></tr><tr><td align="right"><span class="small">12</span></td><td colspan="6" align="center"><img align="absmiddle" border="0" src="/img/img/bullet_green.gif">4 <img align="absmiddle" border="0" src="/img/img/bullet_red.gif">5 &nbsp;<a><b>13 - 11</b></a></td></tr><tr><td align="right"><span class="grey small">%</span></td><td colspan="6" align="center"><span class="grey small">44.4% - 55.6%</span></td></tr><tr><td></td><td colspan="6" align="center">Bramki łącznie Poniżej - Ponad <span class="blue">2.5</span> : 50% - 50%</td></tr><tr><td colspan="7" align="center"><br><table border="0" cellspacing="1" cellpadding="1"><tr><td colspan="2"><b>Bramki strzelone</b></td>
+			<td align="left"><a title="Goals"><img border="0" align="absmiddle" src="/img/img/soccerball_small.gif"></a>
+			</td><td colspan="2"><b>Bramki stracone</b></td></tr><tr><td><span class="small">30%</span></td><td align="right">
+					<img src="/img/img/greybox.gif" height="9" width="43">
+					</td><td align="center"><span class="csgoal">0&nbsp;&nbsp;</span></td>
+					<td><img src="/img/img/greybox.gif" height="9" width="43"></td>
+					<td align="left"><span class="small">30%</span></td></tr><tr><td><span class="small">20%</span></td><td align="right">
+					<img src="/img/img/greybox.gif" height="9" width="29">
+					</td><td align="center"><span class="csgoal">1&nbsp;&nbsp;</span></td>
+					<td><img src="/img/img/greybox.gif" height="9" width="57"></td>
+					<td align="left"><span class="small">40%</span></td></tr><tr><td><span class="small">40%</span></td><td align="right">
+					<img src="/img/img/greybox.gif" height="9" width="57">
+					</td><td align="center"><span class="csgoal">2&nbsp;&nbsp;</span></td>
+					<td><img src="/img/img/greybox.gif" height="9" width="29"></td>
+					<td align="left"><span class="small">20%</span></td></tr><tr><td><span class="small">10%</span></td><td align="right">
+					<img src="/img/img/greybox.gif" height="9" width="14">
+					</td><td align="center"><span class="csgoal">3&nbsp;&nbsp;</span></td>
+					<td><img src="/img/img/greybox.gif" height="9" width="14"></td>
+					<td align="left"><span class="small">10%</span></td></tr><tr><td><span class="small">0%</span></td><td align="right">
+					<img src="/img/img/greybox.gif" height="9" width="0">
+					</td><td align="center"><span class="csgoal">4+</span></td>
+					<td><img src="/img/img/greybox.gif" height="9" width="0"></td>
+					<td align="left"><span class="small">0%</span></td></tr><tr><td colspan="5" align="center"><span class="grey">Regulaminowy Czas Gry</span></td></tr>
+				<tr><td colspan="5" align="center">Średnia bramek <span class="blue">1.3 - 1.1 (2.4)</span></td></tr></table></td></tr></table>	</td>
+			<td align="left" valign="top">	</td>
+			</tr>
+			</table>
+			</td></tr><tr><td colspan="3">
+			<table border="0" align="center"><tr><td align="center">
+			<div align="center" id="chart1" style="height:200px; width:350px;"></div>
+			</td><td align="center">
+			</td></tr></table>
+	</td></tr><tr height="12"><td colspan="3"></td></tr>
+											<tr><td colspan="3" align="center"><span class="verysmall">Reklama</span> <iframe id='a9a9fa3d' name='a9a9fa3d' src='/ads/www/delivery/afr.php?zoneid=8&amp;cb=799&amp;country=PL' frameborder='0' scrolling='no' width='728' height='90'><a href='/ads/www/delivery/ck.php?n=a72fb526&amp;cb=663&amp;country=PL' target='_blank'><img src='/ads/www/delivery/avw.php?zoneid=8&amp;cb=330&amp;n=a72fb526&amp;country=PL' border='0' alt='' /></a></iframe></td></tr><form action="/pl/soccerstats/h2h.php?team1=5130&team2=1" METHOD="POST"><tr><td colspan="3" class="hl" align="center">Ostatnie 30 Spotkania regulaminowy czas gry <select name="league" style="background-color: white" onchange='this.form.submit()'><option value="">Archiwum spotkań</option></select> <a href="/pl/statistics/customize.php"><img border="0" align="absmiddle" title="" alt="" src="/img/is/config_16.png" width=16 height=16 /> Dostosuj Statystyki</a>
+			</form>
+			</td></tr><tr><td align="center"><img align="absmiddle" border="0" src="/img/img/countries/ru.gif"> <span class="blue"><b>Avangard Kursk</b></span></td><td></td>
+			<td align="center"><img align="absmiddle" border="0" src="/img/img/globe-medium-green.png"> <span class="blue"><b></b></span></td></tr><tr><td align="center"><table class="summarytbl" border="0" width="95%" align="center">
+					<tr>
+					<td class="hdr">Liczba gier u siebie</td>
+					<td class="hdr">Liczba gier na wyjeździe</td>
+					<td class="hdr">Archiwum spotkań</td>
+					</tr><tr><td class="wtl">3-5-7</td>
+					<td class="wtl">9-0-6</td>
+					<td class="wtl">12-5-13</td>
+					</tr>
+					<tr>
+					<td class="perc">20%-33%-47%</td>
+					<td class="perc">60%-0%-40%</td>
+					<td class="perc">40%-17%-43%</td>
+					</tr>
+					<tr>
+					<td class="odds">5.00-3.00-2.14</td>
+					<td class="odds">1.67--2.50</td>
+					<td class="odds">2.50-6.00-2.31</td>
+					</tr></table></td><td class="hl" align="center">Wygrana-Remis-Przegrana</td>
+			<td align="center"></td></tr><tr><td align="center"><table class="summarytbl" border="0" width="95%" align="center">
+					<tr>
+					<td class="hdr">Liczba gier u siebie</td>
+					<td class="hdr">Liczba gier na wyjeździe</td>
+					<td class="hdr">Archiwum spotkań</td>
+					</tr><tr><td class="wtl">3-5-7</td>
+					<td class="wtl">9-0-6</td>
+					<td class="wtl">12-5-13</td>
+					</tr>
+					<tr>
+					<td class="perc">20%-33%-47%</td>
+					<td class="perc">60%-0%-40%</td>
+					<td class="perc">40%-17%-43%</td>
+					</tr>
+					<tr>
+					<td class="odds">5.00-3.00-2.14</td>
+					<td class="odds">1.67--2.50</td>
+					<td class="odds">2.50-6.00-2.31</td>
+					</tr></table></td><td class="hl" align="center">Percentage averages <a href="javascript:void(0);" onmouseover="return overlib('Example: Gospodarze vs Goście Wygrana% = (Gospodarze Liczba gier u siebie Wygrana% + Goście Liczba gier na wyjeździe Przegrana%) / 2');" onmouseout="return nd();"><b>?</b></a>
+</td>
+			<td align="center" valign="center">
+			</td></tr><tr><td align="center"></td>
+			<td class="hl" align="center">1x2 Kurs<br><a href="/pl/statistics/customize.php"><span class="small">Zaznacz Bukmacherów</span></a></td>
+			<td align="center">Starting odds: <a href="/pl/register/"><img border="0" align="absmiddle" title="" alt="" src="/img/is/register_24.png" width=24 height=24 /> Zarejestruj się lub zaloguj.</a></td>
+			</tr><tr><td colspan="3" align="center"><table width="90%" class="summarytbl"><tr>
+					<td class="hdr">Liczba gier u siebie</td>
+					<td class="hdr">Liczba gier na wyjeździe</td>
+					<td class="hdr">Archiwum spotkań</td>
+					<td class="hdr">Bramki łącznie Poniżej-Ponad</td>
+					<td class="hdr">Liczba gier u siebie</td>
+					<td class="hdr">Liczba gier na wyjeździe</td>
+					<td class="hdr">Archiwum spotkań</td>
+					</tr><tr class="stripe">
+				<td class="perc">33%-67%</td>
+				<td class="perc">47%-53%</td>
+				<td class="perc">40%-60%</td>
+				<td class="hdr"><span class="blue">1.5</span> bramki &nbsp;</td>
+				<td class="perc">0%-0%</td>
+				<td class="perc">0%-0%</td>
+				<td class="perc">0%-0%</td>
+				</tr><tr>
+				<td class="odds">3.00-1.50</td>
+				<td class="odds">2.14-1.88</td>
+				<td class="odds">2.50-1.67</td>
+				<td class="odds"></td>
+				<td class="odds">-</td>
+				<td class="odds">-</td>
+				<td class="odds">-</td>
+				</tr><tr class="stripe">
+				<td class="perc">53%-47%</td>
+				<td class="perc">53%-47%</td>
+				<td class="perc">53%-47%</td>
+				<td class="hdr"><span class="blue">2.5</span> bramki &nbsp;</td>
+				<td class="perc">0%-0%</td>
+				<td class="perc">0%-0%</td>
+				<td class="perc">0%-0%</td>
+				</tr><tr>
+				<td class="odds">1.88-2.14</td>
+				<td class="odds">1.88-2.14</td>
+				<td class="odds">1.88-2.14</td>
+				<td class="odds"></td>
+				<td class="odds">-</td>
+				<td class="odds">-</td>
+				<td class="odds">-</td>
+				</tr><tr class="stripe">
+				<td class="perc">60%-40%</td>
+				<td class="perc">87%-13%</td>
+				<td class="perc">73%-27%</td>
+				<td class="hdr"><span class="blue">3.5</span> bramki &nbsp;</td>
+				<td class="perc">0%-0%</td>
+				<td class="perc">0%-0%</td>
+				<td class="perc">0%-0%</td>
+				</tr><tr>
+				<td class="odds">1.67-2.50</td>
+				<td class="odds">1.15-7.50</td>
+				<td class="odds">1.36-3.75</td>
+				<td class="odds"></td>
+				<td class="odds">-</td>
+				<td class="odds">-</td>
+				<td class="odds">-</td>
+				</tr></table><br><a href="/pl/register/">Register or log in to see a lot more statistics</a></td>
+		</tr><tr height="12"><td colspan="3"></td></tr>
+	<tr><td colspan="3" class="hl" align="center">Zakład bezpośredni między drużynami  <img align="absmiddle" border="0" src="/img/img/bullet_green.gif"> Avangard Kursk <img align="absmiddle" border="0" src="/img/img/bullet_red.gif"> </td></tr>
+	<tr><td colspan="3" align="center">
+	<table border="0" align="center" width="100%" cellspacing="0" cellpadding="0"><tr>
+	<td align="center" valign="top"><table border="0" cellspacing="0" cellpadding="0"><tr><td colspan="7" align="center"><br></td></tr></table>
+	</td>
+	</tr>
+	</table>
+	</td></tr><tr height="12"><td colspan="3"></td></tr>
+			<tr><td colspan="3" class="hl" align="center">Against common opponents </td></tr>
+			<tr><td colspan="3" align="center">
+			Statistics Pro: <a target="_blank" href="/store/"><img border="0" align="absmiddle" title="" alt="" src="/img/is/shopping_cart_16.png" width=16 height=16 /> Kupić od Web Store</a>
+			</td></tr><tr height="12"><td colspan="3"></td></tr><tr><td colspan="3" align="center">
+			<table border="0" align="center" width="100%" cellspacing="0" cellpadding="0"><tr><td class="hl" align="center">Russian 2. Division Center 2013-2014 </td>
+							<td></td><td class="hl" align="center">  </td></tr><tr><td align="center" valign="top"><table class="nicelight"><tr><td colspan="2"></td><td colspan="5" align="center">Archiwum spotkań</td><td width="10"></td><td colspan="5" align="center">Liczba gier u siebie</td><td width="10"></td><td colspan="5" align="center">Liczba gier na wyjeździe</td></tr><tr class="title"><td>#</td><td>Drużyna</td><td>SR</td><td>W</td>
+					<td>R</td><td>P</td><td>Pts</td><td></td><td>SR</td><td>W</td>
+					<td>R</td><td>P</td><td>Pts</td>
+					<td></td><td>SR</td><td>W</td>
+					<td>R</td><td>P</td><td>Pts</td></tr><tr><td>1.</td><td>Sokol Saratov</td><td>30</td><td>21</td>
+						<td>6</td><td>3</td><td align="right"><span class="blue">69</span></td><td></td><td>15</td><td>13</td><td>2</td><td>0</td>
+						<td><span class="blue">41</span></td><td></td><td>15</td><td>8</td>
+						<td>4</td><td>3</td><td><span class="blue">28</span></td></tr><tr><td>2.</td><td>FC Fakel Voronezh</td><td>30</td><td>17</td>
+						<td>9</td><td>4</td><td align="right"><span class="blue">60</span></td><td></td><td>15</td><td>11</td><td>4</td><td>0</td>
+						<td><span class="blue">37</span></td><td></td><td>15</td><td>6</td>
+						<td>5</td><td>4</td><td><span class="blue">23</span></td></tr><tr><td>3.</td><td>FC Vityaz Podolsk</td><td>30</td><td>19</td>
+						<td>3</td><td>8</td><td align="right"><span class="blue">60</span></td><td></td><td>15</td><td>12</td><td>0</td><td>3</td>
+						<td><span class="blue">36</span></td><td></td><td>15</td><td>7</td>
+						<td>3</td><td>5</td><td><span class="blue">24</span></td></tr><tr><td>4.</td><td>Spartak Moscow II</td><td>30</td><td>15</td>
+						<td>5</td><td>10</td><td align="right"><span class="blue">50</span></td><td></td><td>15</td><td>10</td><td>2</td><td>3</td>
+						<td><span class="blue">32</span></td><td></td><td>15</td><td>5</td>
+						<td>3</td><td>7</td><td><span class="blue">18</span></td></tr><tr><td>5.</td><td>Dynamo Bryansk</td><td>30</td><td>14</td>
+						<td>6</td><td>10</td><td align="right"><span class="blue">48</span></td><td></td><td>15</td><td>8</td><td>4</td><td>3</td>
+						<td><span class="blue">28</span></td><td></td><td>15</td><td>6</td>
+						<td>2</td><td>7</td><td><span class="blue">20</span></td></tr><tr><td>6.</td><td>FC Kaluga</td><td>29</td><td>11</td>
+						<td>9</td><td>9</td><td align="right"><span class="blue">42</span></td><td></td><td>14</td><td>6</td><td>5</td><td>3</td>
+						<td><span class="blue">23</span></td><td></td><td>15</td><td>5</td>
+						<td>4</td><td>6</td><td><span class="blue">19</span></td></tr><tr class="hl"><td>7.</td><td>Avangard Kursk</td><td>30</td><td>12</td>
+						<td>6</td><td>12</td><td align="right"><span class="blue">42</span></td><td></td><td>15</td><td>4</td><td>5</td><td>6</td>
+						<td><span class="blue">17</span></td><td></td><td>15</td><td>8</td>
+						<td>1</td><td>6</td><td><span class="blue">25</span></td></tr><tr><td>8.</td><td>Podolye Podolsky d</td><td>30</td><td>13</td>
+						<td>3</td><td>14</td><td align="right"><span class="blue">42</span></td><td></td><td>15</td><td>7</td><td>2</td><td>6</td>
+						<td><span class="blue">23</span></td><td></td><td>15</td><td>6</td>
+						<td>1</td><td>8</td><td><span class="blue">19</span></td></tr><tr><td>9.</td><td>Metallurg Lipetsk</td><td>30</td><td>11</td>
+						<td>7</td><td>12</td><td align="right"><span class="blue">40</span></td><td></td><td>15</td><td>8</td><td>3</td><td>4</td>
+						<td><span class="blue">27</span></td><td></td><td>15</td><td>3</td>
+						<td>4</td><td>8</td><td><span class="blue">13</span></td></tr><tr><td>10.</td><td>Zenit Penza</td><td>30</td><td>7</td>
+						<td>14</td><td>9</td><td align="right"><span class="blue">35</span></td><td></td><td>15</td><td>5</td><td>6</td><td>4</td>
+						<td><span class="blue">21</span></td><td></td><td>15</td><td>2</td>
+						<td>8</td><td>5</td><td><span class="blue">14</span></td></tr><tr><td>11.</td><td>Zvezda Ryazan</td><td>30</td><td>7</td>
+						<td>12</td><td>11</td><td align="right"><span class="blue">33</span></td><td></td><td>15</td><td>3</td><td>6</td><td>6</td>
+						<td><span class="blue">15</span></td><td></td><td>15</td><td>4</td>
+						<td>6</td><td>5</td><td><span class="blue">18</span></td></tr><tr><td>12.</td><td>Spartak Tambov</td><td>30</td><td>8</td>
+						<td>7</td><td>15</td><td align="right"><span class="blue">31</span></td><td></td><td>15</td><td>6</td><td>3</td><td>6</td>
+						<td><span class="blue">21</span></td><td></td><td>15</td><td>2</td>
+						<td>4</td><td>9</td><td><span class="blue">10</span></td></tr><tr><td>13.</td><td>Lokomotiv Liski</td><td>30</td><td>7</td>
+						<td>8</td><td>15</td><td align="right"><span class="blue">29</span></td><td></td><td>15</td><td>6</td><td>6</td><td>3</td>
+						<td><span class="blue">24</span></td><td></td><td>15</td><td>1</td>
+						<td>2</td><td>12</td><td><span class="blue">5</span></td></tr><tr><td>14.</td><td>FC Oryol</td><td>30</td><td>8</td>
+						<td>5</td><td>17</td><td align="right"><span class="blue">29</span></td><td></td><td>15</td><td>5</td><td>3</td><td>7</td>
+						<td><span class="blue">18</span></td><td></td><td>15</td><td>3</td>
+						<td>2</td><td>10</td><td><span class="blue">11</span></td></tr><tr><td>15.</td><td>Metallurg Vyksa</td><td>30</td><td>6</td>
+						<td>11</td><td>13</td><td align="right"><span class="blue">29</span></td><td></td><td>15</td><td>5</td><td>4</td><td>6</td>
+						<td><span class="blue">19</span></td><td></td><td>15</td><td>1</td>
+						<td>7</td><td>7</td><td><span class="blue">10</span></td></tr><tr><td>16.</td><td>Metallurg-Oskol</td><td>29</td><td>4</td>
+						<td>7</td><td>18</td><td align="right"><span class="blue">19</span></td><td></td><td>15</td><td>2</td><td>4</td><td>9</td>
+						<td><span class="blue">10</span></td><td></td><td>14</td><td>2</td>
+						<td>3</td><td>9</td><td><span class="blue">9</span></td></tr></table>
+						<br><a class="mediumbutton" target="_blank" href="/pl/soccerstats/score_stats.php?serie=395">Statystyki Bramkowe &amp; Goal difference</a>
+						</td>
+						<td></td><td align="center" valign="top">
+						<br><a class="mediumbutton" target="_blank" href="/pl/soccerstats/score_stats.php?serie=">Statystyki Bramkowe &amp; Goal difference</a>
+						</td></tr><tr><td colspan="3" class="hl" align="center">Form </td></tr><tr><td align="center" valign="top"><table class="nicelight"><tr><td colspan="2"></td><td colspan="5" align="center">Archiwum spotkań</td><td width="10"></td><td colspan="5" align="center">Liczba gier u siebie</td><td width="10"></td><td colspan="5" align="center">Liczba gier na wyjeździe</td></tr><tr class="title"><td>#</td><td>Drużyna</td><td>SR</td><td>W</td>
+					<td>R</td><td>P</td><td>Pts</td><td></td><td>SR</td><td>W</td>
+					<td>R</td><td>P</td><td>Pts</td>
+					<td></td><td>SR</td><td>W</td>
+					<td>R</td><td>P</td><td>Pts</td></tr><tr><td>1.</td><td>Spartak Tambov</td><td>6</td><td>5</td>
+						<td>1</td><td>0</td><td align="right"><span class="blue">16</span></td><td></td><td>6</td><td>3</td><td>0</td><td>3</td>
+						<td><span class="blue">9</span></td><td></td><td>6</td><td>2</td>
+						<td>2</td><td>2</td><td><span class="blue">8</span></td></tr><tr><td>2.</td><td>Spartak Moscow II</td><td>6</td><td>5</td>
+						<td>1</td><td>0</td><td align="right"><span class="blue">16</span></td><td></td><td>6</td><td>5</td><td>0</td><td>1</td>
+						<td><span class="blue">15</span></td><td></td><td>6</td><td>2</td>
+						<td>3</td><td>1</td><td><span class="blue">9</span></td></tr><tr><td>3.</td><td>FC Fakel Voronezh</td><td>6</td><td>4</td>
+						<td>1</td><td>1</td><td align="right"><span class="blue">13</span></td><td></td><td>6</td><td>5</td><td>1</td><td>0</td>
+						<td><span class="blue">16</span></td><td></td><td>6</td><td>2</td>
+						<td>2</td><td>2</td><td><span class="blue">8</span></td></tr><tr><td>4.</td><td>Sokol Saratov</td><td>6</td><td>4</td>
+						<td>1</td><td>1</td><td align="right"><span class="blue">13</span></td><td></td><td>6</td><td>6</td><td>0</td><td>0</td>
+						<td><span class="blue">18</span></td><td></td><td>6</td><td>3</td>
+						<td>1</td><td>2</td><td><span class="blue">10</span></td></tr><tr><td>5.</td><td>FC Vityaz Podolsk</td><td>6</td><td>4</td>
+						<td>0</td><td>2</td><td align="right"><span class="blue">12</span></td><td></td><td>6</td><td>5</td><td>0</td><td>1</td>
+						<td><span class="blue">15</span></td><td></td><td>6</td><td>2</td>
+						<td>2</td><td>2</td><td><span class="blue">8</span></td></tr><tr class="hl"><td>6.</td><td>Avangard Kursk</td><td>6</td><td>4</td>
+						<td>0</td><td>2</td><td align="right"><span class="blue">12</span></td><td></td><td>6</td><td>2</td><td>1</td><td>3</td>
+						<td><span class="blue">7</span></td><td></td><td>6</td><td>3</td>
+						<td>0</td><td>3</td><td><span class="blue">9</span></td></tr><tr><td>7.</td><td>Dynamo Bryansk</td><td>6</td><td>4</td>
+						<td>0</td><td>2</td><td align="right"><span class="blue">12</span></td><td></td><td>6</td><td>3</td><td>2</td><td>1</td>
+						<td><span class="blue">11</span></td><td></td><td>6</td><td>3</td>
+						<td>0</td><td>3</td><td><span class="blue">9</span></td></tr><tr><td>8.</td><td>FC Kaluga</td><td>6</td><td>2</td>
+						<td>2</td><td>2</td><td align="right"><span class="blue">8</span></td><td></td><td>6</td><td>3</td><td>3</td><td>0</td>
+						<td><span class="blue">12</span></td><td></td><td>6</td><td>2</td>
+						<td>1</td><td>3</td><td><span class="blue">7</span></td></tr><tr><td>9.</td><td>Metallurg Vyksa</td><td>6</td><td>1</td>
+						<td>3</td><td>2</td><td align="right"><span class="blue">6</span></td><td></td><td>6</td><td>3</td><td>2</td><td>1</td>
+						<td><span class="blue">11</span></td><td></td><td>6</td><td>1</td>
+						<td>2</td><td>3</td><td><span class="blue">5</span></td></tr><tr><td>10.</td><td>FC Oryol</td><td>6</td><td>2</td>
+						<td>0</td><td>4</td><td align="right"><span class="blue">6</span></td><td></td><td>6</td><td>2</td><td>2</td><td>2</td>
+						<td><span class="blue">8</span></td><td></td><td>6</td><td>2</td>
+						<td>0</td><td>4</td><td><span class="blue">6</span></td></tr><tr><td>11.</td><td>Lokomotiv Liski</td><td>6</td><td>2</td>
+						<td>0</td><td>4</td><td align="right"><span class="blue">6</span></td><td></td><td>6</td><td>3</td><td>2</td><td>1</td>
+						<td><span class="blue">11</span></td><td></td><td>6</td><td>0</td>
+						<td>0</td><td>6</td><td><span class="blue">0</span></td></tr><tr><td>12.</td><td>Zvezda Ryazan</td><td>6</td><td>1</td>
+						<td>3</td><td>2</td><td align="right"><span class="blue">6</span></td><td></td><td>6</td><td>2</td><td>3</td><td>1</td>
+						<td><span class="blue">9</span></td><td></td><td>6</td><td>0</td>
+						<td>4</td><td>2</td><td><span class="blue">4</span></td></tr><tr><td>13.</td><td>Zenit Penza</td><td>6</td><td>1</td>
+						<td>2</td><td>3</td><td align="right"><span class="blue">5</span></td><td></td><td>6</td><td>2</td><td>4</td><td>0</td>
+						<td><span class="blue">10</span></td><td></td><td>6</td><td>1</td>
+						<td>2</td><td>3</td><td><span class="blue">5</span></td></tr><tr><td>14.</td><td>Podolye Podolsky d</td><td>6</td><td>1</td>
+						<td>0</td><td>5</td><td align="right"><span class="blue">3</span></td><td></td><td>6</td><td>3</td><td>0</td><td>3</td>
+						<td><span class="blue">9</span></td><td></td><td>6</td><td>2</td>
+						<td>0</td><td>4</td><td><span class="blue">6</span></td></tr><tr><td>15.</td><td>Metallurg Lipetsk</td><td>6</td><td>0</td>
+						<td>2</td><td>4</td><td align="right"><span class="blue">2</span></td><td></td><td>6</td><td>3</td><td>1</td><td>2</td>
+						<td><span class="blue">10</span></td><td></td><td>6</td><td>1</td>
+						<td>2</td><td>3</td><td><span class="blue">5</span></td></tr><tr><td>16.</td><td>Metallurg-Oskol</td><td>6</td><td>0</td>
+						<td>0</td><td>6</td><td align="right"><span class="blue">0</span></td><td></td><td>6</td><td>0</td><td>0</td><td>6</td>
+						<td><span class="blue">0</span></td><td></td><td>6</td><td>0</td>
+						<td>0</td><td>6</td><td><span class="blue">0</span></td></tr></table></td>
+					<td></td><td align="center" valign="top"></td></tr></table></td></tr><tr height="12"><td colspan="3"></td></tr>
+											<tr><td colspan="3" align="center"><span class="verysmall">Reklama</span> <iframe id='a9a9fa3d' name='a9a9fa3d' src='/ads/www/delivery/afr.php?zoneid=8&amp;cb=617&amp;country=PL' frameborder='0' scrolling='no' width='728' height='90'><a href='/ads/www/delivery/ck.php?n=a72fb526&amp;cb=740&amp;country=PL' target='_blank'><img src='/ads/www/delivery/avw.php?zoneid=8&amp;cb=893&amp;n=a72fb526&amp;country=PL' border='0' alt='' /></a></iframe></td></tr><tr><td colspan="3" class="title">Statystyki </td></tr><tr height="12"><td colspan="3"></td></tr>
+	<tr><td colspan="3" class="hl" align="center">Longest streaks </td></tr>
+		<tr><td colspan="3" align="center">
+		<table border="0" align="center" width="100%" cellspacing="0" cellpadding="0"><tr>
+		<td align="right" valign="top"><table border="0" class="nicelight"><tr><td class="hl">Longest streaks</td><td class="hl" align="center"><img align="absmiddle" border="0" src="/img/img/bullet_green.gif">W</td><td class="hl" align="center"><img align="absmiddle" border="0" src="/img/img/bullet_yellow.gif">R</td>	<td class="hl" align="center"><img align="absmiddle" border="0" src="/img/img/bullet_red.gif">P</td><td class="hl" align="center">&nbsp;Lossless &nbsp;</td>
+									<td class="hl" align="center">&nbsp;Wygrana do Zera &nbsp;&nbsp;</td>
+									<td class="hl" align="center">scored</td></tr>
+				<tr>
+				<td><span class="blue"><b>Avangard Kursk</b></span></td>
+				<td align="center">4</td><td align="center">5</td><td align="center">7</td><td align="center">9</td>
+									<td align="center">3</td>
+									<td align="center">15</td></tr>
+				<tr>
+				<td>Current</td>
+				<td align="center">4</td><td align="center">-6</td><td align="center">-4</td><td align="center">4</td>
+									<td align="center">1</td>
+									<td align="center">5</td></tr>
+				</table><br><table border="0" class="nicelight"><tr><td class="hl">Longest streaks</td><td class="hl" align="center">conceded goal</td><td class="hl" align="center">Ponad 2.5<br>Bramki łącznie*</td><td class="hl" align="center">Poniżej 2.5<br>Bramki łącznie*</td></tr>
+					<tr>
+					<td><span class="blue"><b>Avangard Kursk</b></span></td>
+					<td colspan="3" align="center">Statistics Pro: <a target="_blank" href="/store/">Kupić od Web Store</a></td></tr></table><p align="center">*Regulaminowy Czas Gry</p>
+		</td>
+		<td align="left" valign="top">
+		</td>
+		</tr>
+		</table>
+		</td></tr><tr><td align="right" valign="top"></td><td></td><td valign="top" align="left"><table border="0" cellpadding="0" cellspacing="0" width="350"><tr><td><div align="left" id="ajaxnews"></div></td></tr></table></td></tr>
+	</table><br>
+		</font>
+		</td>
+		</tr>
+		</table>
+		<!-- table ends -->
+		<br>
+		</body>
+		</html>
