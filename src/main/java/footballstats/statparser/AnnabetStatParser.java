@@ -3,6 +3,9 @@ package footballstats.statparser;
 import footballstats.core.*;
 import sun.misc.Regexp;
 
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Date;
@@ -19,9 +22,9 @@ public class AnnabetStatParser implements StatParser {
     private final String ALL_MATCHES_URL = "http://annabet.com/pl/soccerstats/upcoming/";
     private final String TEAM_URL = "http://annabet.com/pl/soccerstats/h2h.php?team1={{id}}&team2=1";
 
-    private final String MATCH_REGEX = "<a [^>]*><img [^>]*> ([^<]+)</a></td><td><a.*?href=\"/pl/.*?/h2h.php\\?team1=(\\d+)&team2=(\\d+)\">.*";
+    private final String MATCH_REGEX = "<a [^>]*><img [^>]*> ([^<]+)</a></td><td><a.*?href=\"/pl/.*?/h2h.php\\?team1=(\\d+)&team2=(\\d+)\">";
     private final String DATE_TIME_REGEX = "<td>(\\d+\\.\\d+)\\. (\\d+:\\d+)</td>";
-    private final String FULL_REGEX = MATCH_REGEX + "\\n.*?" + DATE_TIME_REGEX;
+    private final String FULL_REGEX = MATCH_REGEX + ".*?" + DATE_TIME_REGEX;
 
     private final String TEAM_NAME_REGEX = "<title>(.*?) -";
     private final String SCORE_REGEX = "<b>(\\d+) - (\\d+)\\*?</b></a> .*?<td.*?>(.*?)</td>";
@@ -37,6 +40,7 @@ public class AnnabetStatParser implements StatParser {
 
     @Override
     public void updateStats() {
+
         fullPage = clientAdapter.doGetRequest(ALL_MATCHES_URL);
     }
 
@@ -54,7 +58,7 @@ public class AnnabetStatParser implements StatParser {
     @Override
     public List<MatchId> getDayMatches(String date) {
         List<MatchId> matches = new ArrayList<>();
-        Pattern pattern = Pattern.compile(FULL_REGEX);
+        Pattern pattern = Pattern.compile(FULL_REGEX,Pattern.DOTALL);
         Matcher matcher = pattern.matcher(fullPage);
         while(matcher.find())
             if(date.equals(matcher.group(4)))
@@ -64,7 +68,7 @@ public class AnnabetStatParser implements StatParser {
 
     @Override
     public Match getMatch(MatchId id) {
-        Pattern pattern = Pattern.compile(FULL_REGEX);
+        Pattern pattern = Pattern.compile(FULL_REGEX,Pattern.DOTALL);
         Matcher matcher = pattern.matcher(fullPage);
         while(matcher.find())
             if(id.team1Id.equals(matcher.group(2)) && id.team2Id.equals(matcher.group(3)))

@@ -1,6 +1,5 @@
 package footballstats.statparser;
 
-import footballstats.core.DayRoster;
 import footballstats.core.Match;
 import footballstats.core.MatchId;
 import footballstats.core.Team;

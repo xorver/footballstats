@@ -1,5 +1,7 @@
 package footballstats.statparser;
 
+import org.apache.log4j.Logger;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -11,6 +13,7 @@ import java.net.URL;
  */
 public class HttpClientAdapter {
 
+    private static final Logger logger = Logger.getLogger(HttpClientAdapter.class);
 
     public String doGetRequest(String url){
         try {
@@ -18,8 +21,8 @@ public class HttpClientAdapter {
             HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 
             int responseCode = con.getResponseCode();
-            System.out.println("\nSending 'GET' request to URL : " + url);
-            System.out.println("Response Code : " + responseCode);
+            logger.info("Sending 'GET' request to URL : " + url);
+            logger.info("Response Code : " + responseCode);
 
             BufferedReader in = new BufferedReader(
                     new InputStreamReader(con.getInputStream()));
@@ -34,7 +37,7 @@ public class HttpClientAdapter {
             return response.toString();
         } catch (IOException e) {
             e.printStackTrace();
-            throw new IllegalStateException("Brak połączenia z adresem: "+url);
+            throw new IllegalStateException("No connection with"+url);
         }
     }
 }
