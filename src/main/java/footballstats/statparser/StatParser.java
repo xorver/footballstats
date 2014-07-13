@@ -2,6 +2,7 @@ package footballstats.statparser;
 
 import footballstats.core.DayRoster;
 import footballstats.core.Match;
+import footballstats.core.MatchId;
 import footballstats.core.Team;
 
 import java.util.Date;
@@ -13,8 +14,8 @@ import java.util.List;
 public interface StatParser {
 
     void updateStats();
-    List<Date> getDates();
-    DayRoster getDayRoster(Date date);
-    Match getMatch(String id);
+    List<String> getDates();
+    List<MatchId> getDayMatches(String date);
+    Match getMatch(MatchId id);
     Team getTeam(String id);
 }
