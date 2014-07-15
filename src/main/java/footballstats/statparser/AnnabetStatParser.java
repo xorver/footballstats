@@ -21,6 +21,8 @@ public class AnnabetStatParser implements StatParser {
 
     private final String ALL_MATCHES_URL = "http://annabet.com/pl/soccerstats/upcoming/";
     private final String TEAM_URL = "http://annabet.com/pl/soccerstats/h2h.php?team1={{id}}&team2=1";
+//    private final String TEAM_URL = "https://bucharest-s05-i01-traffic.cyberghostvpn.com/go/browse.php?u=http%3A%2F%2Fannabet.com%2Fpl%2Fsoccerstats%2Fh2h.php%3Fteam1%3D4%26team2%3D1&b=7&f=norefer";
+//    private final String TEAM_URL = "http://2anonymousproxy.com/browse.php?u=http%3A%2F%2Fannabet.com%2Fpl%2Fsoccerstats%2Fh2h.php%3Fteam1%3D{{id}}%26team2%3D1&b=4&f=norefer";
 
     private final String MATCH_REGEX = "<a [^>]*><img [^>]*> ([^<]+)</a></td><td><a.*?href=\"/pl/.*?/h2h.php\\?team1=(\\d+)&team2=(\\d+)\">";
     private final String DATE_TIME_REGEX = "<td>(\\d+\\.\\d+)\\. (\\d+:\\d+)</td>";

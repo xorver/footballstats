@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args){
+        System.setProperty("jsse.enableSNIExtension", "false");
         Scanner scanner = new Scanner(System.in);
         FullRoster roster = new FullRoster(new AnnabetStatParser(new HttpClientAdapter()));
 
@@ -21,9 +22,7 @@ public class Main {
         System.out.println();
 
         String date = scanner.nextLine();
-        System.out.println(date);
 
-        String data = roster.dayMatches(date,5);
-        System.out.println(data);
+        roster.dayMatches(date,5);
     }
 }
