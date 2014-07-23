@@ -31,9 +31,9 @@ public class AnnabetStatParserTest {
         String team5132Data = getResourceData("/AnnabetTeam5132Data");
 
         MockitoAnnotations.initMocks(this);
-        Mockito.when(httpClientMock.doGetRequest("http://annabet.com/pl/soccerstats/upcoming/")).thenReturn(mainPageData);
-        Mockito.when(httpClientMock.doGetRequest("http://annabet.com/pl/soccerstats/h2h.php?team1=5130&team2=1")).thenReturn(team5130Data);
-        Mockito.when(httpClientMock.doGetRequest("http://annabet.com/pl/soccerstats/h2h.php?team1=5132&team2=1")).thenReturn(team5132Data);
+        Mockito.when(httpClientMock.doGetRequestByProxy("http://annabet.com/pl/soccerstats/upcoming/")).thenReturn(mainPageData);
+        Mockito.when(httpClientMock.doGetRequestByProxy("http://annabet.com/pl/soccerstats/h2h.php?team1=5130&team2=1")).thenReturn(team5130Data);
+        Mockito.when(httpClientMock.doGetRequestByProxy("http://annabet.com/pl/soccerstats/h2h.php?team1=5132&team2=1")).thenReturn(team5132Data);
 
         underTest = new AnnabetStatParser(httpClientMock);
     }
@@ -41,7 +41,7 @@ public class AnnabetStatParserTest {
     @org.junit.Test
     public void testUpdateStats() throws Exception {
         assertTrue(0 < underTest.getDates().size());
-        Mockito.when(httpClientMock.doGetRequest("http://annabet.com/pl/soccerstats/upcoming/")).thenReturn("");
+        Mockito.when(httpClientMock.doGetRequestByProxy("http://annabet.com/pl/soccerstats/upcoming/")).thenReturn("");
 
         underTest.updateStats();
 
