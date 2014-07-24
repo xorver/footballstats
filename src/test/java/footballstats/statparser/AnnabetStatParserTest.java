@@ -29,11 +29,13 @@ public class AnnabetStatParserTest {
         String mainPageData = getResourceData("/AnnabetMainPageData");
         String team5130Data = getResourceData("/AnnabetTeam5130Data");
         String team5132Data = getResourceData("/AnnabetTeam5132Data");
+        String team5130And5132Data = getResourceData("/AnnabetTeam5130And5132Data");
 
         MockitoAnnotations.initMocks(this);
         Mockito.when(httpClientMock.doGetRequestByProxy("http://annabet.com/pl/soccerstats/upcoming/")).thenReturn(mainPageData);
         Mockito.when(httpClientMock.doGetRequestByProxy("http://annabet.com/pl/soccerstats/h2h.php?team1=5130&team2=1")).thenReturn(team5130Data);
         Mockito.when(httpClientMock.doGetRequestByProxy("http://annabet.com/pl/soccerstats/h2h.php?team1=5132&team2=1")).thenReturn(team5132Data);
+        Mockito.when(httpClientMock.doGetRequestByProxy("http://annabet.com/pl/soccerstats/h2h.php?team1=5130&team2=5132")).thenReturn(team5130And5132Data);
 
         underTest = new AnnabetStatParser(httpClientMock);
     }
