@@ -41,4 +41,8 @@ public class Team {
                 draws++;
         return draws;
     }
+
+    public boolean statEmpty() {
+        return recentScores.isEmpty();
+    }
 }

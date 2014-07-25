@@ -1,6 +1,7 @@
 package footballstats;
 
 import footballstats.core.FullRoster;
+import footballstats.gui.MainWindow;
 import footballstats.statparser.AnnabetStatParser;
 import footballstats.statparser.HttpClientAdapter;
 
@@ -13,16 +14,10 @@ public class Main {
 
     public static void main(String[] args){
         System.setProperty("jsse.enableSNIExtension", "false");
-        Scanner scanner = new Scanner(System.in);
-        FullRoster roster = new FullRoster(new AnnabetStatParser(new HttpClientAdapter()));
 
-        System.out.println("Znalezione terminy:");
-        for(String date : roster.getDayList())
-            System.out.print(date+" ");
-        System.out.println();
+        MainWindow mainWindow;
+        mainWindow = new MainWindow();
+        mainWindow.init();
 
-        String date = scanner.nextLine();
-
-        roster.dayMatches(date,5);
     }
 }

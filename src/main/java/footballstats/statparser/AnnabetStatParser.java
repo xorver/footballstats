@@ -23,7 +23,7 @@ public class AnnabetStatParser implements StatParser {
     private final String SCORE_REGEX = "<b>(\\d+) - (\\d+)\\*?</b></a> .*?<td.*?>(.*?)</td>";
 
     private final String TEAMS_NAME_REGEX = "<title>(.*?) - (.*?)( :|,)";
-    private final String SCORES_REGEX = "title=\"([^<]*?) - (.*?) (Ø|\").*?<b>(\\d+) - (\\d+)";
+    private final String SCORES_REGEX = "title=\"([^<]*?) - ([^<]*?) (Ø|\")[^<]*?<b>(\\d+) - (\\d+)";
 
     private HttpClientAdapter clientAdapter;
     private String fullPage;

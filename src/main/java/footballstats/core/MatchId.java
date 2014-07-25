@@ -18,4 +18,9 @@ public class MatchId {
             return team1Id.equals(((MatchId) obj).team1Id) && team2Id.equals(((MatchId) obj).team2Id);
         return super.equals(obj);
     }
+
+    @Override
+    public int hashCode() {
+        return Integer.parseInt(team1Id);
+    }
 }

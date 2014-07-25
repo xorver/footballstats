@@ -1,6 +1,7 @@
 package footballstats.statparser;
 
 
+import footballstats.gui.LogReceiver;
 import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.DefaultHttpClient;
 
@@ -23,8 +24,9 @@ public class HttpClientAdapter {
     private final String PROXY_ADDRESS_PROVIDER = "http://www.us-proxy.org/";
     private final String ALL_MATCHES_URL = "http://annabet.com/pl/soccerstats/upcoming/";
     private final String PROXY_REGEX = "(\\d+\\.\\d+\\.\\d+\\.\\d+)</td><td>(\\d+)";
-    private final int PROXY_COUNT=5;
+    private int PROXY_COUNT=5;
     private final int PROXY_TIMEOUT=500;
+    private final int NORMAL_REQ_TIMEOUT=10000;
 
     private List<InetSocketAddress> proxies = new ArrayList<>();
 
@@ -35,15 +37,23 @@ public class HttpClientAdapter {
     public String doGetRequestByProxy(String addr){
         int randPrx = (int)Math.floor(Math.random()*proxies.size());
         try {
+            if(proxies.isEmpty()) {
+                PROXY_COUNT+=2;
+                LogReceiver.getInstance().info("Regenerating proxies...");
+                findRandomProxies(PROXY_COUNT);
+            }
             Proxy proxy = new Proxy(Proxy.Type.HTTP, proxies.get(randPrx));
             HttpURLConnection con = (HttpURLConnection) new URL(addr).openConnection(proxy);
+            con.setConnectTimeout(NORMAL_REQ_TIMEOUT);
 
-            System.out.println("[info] Performing http request, url: " + addr + ", using proxy nr "+randPrx+", Ans code: "+con.getResponseCode());
+            LogReceiver.getInstance().info("Performing http request, url: " + addr + ", using proxy nr "+randPrx+", Ans code: "+con.getResponseCode());
 
             return doGetRequest(con);
         } catch (IOException | IllegalStateException e) {
-            System.out.println("[error] Cannot get page: " + addr);
+            LogReceiver.getInstance().error("Cannot get page: " + addr);
+            LogReceiver.getInstance().warning("Banning proxy with number: " + randPrx);
             proxies.remove(randPrx);
+
         }
         return "";
     }
@@ -66,7 +76,7 @@ public class HttpClientAdapter {
 
             return response.toString();
         } catch (IOException e) {
-            System.out.println("[error] Cannot get page data ");
+            LogReceiver.getInstance().warning("Cannot get http data");
             throw new IllegalStateException("Cannot get http data");
         }
     }
@@ -80,17 +90,19 @@ public class HttpClientAdapter {
 
             Pattern pattern = Pattern.compile(PROXY_REGEX);
             Matcher matcher = pattern.matcher(page);
-            System.out.println("[info] Found proxy list");
+            LogReceiver.getInstance().info("Found proxy list");
             while(matcher.find() && n>0){
-                System.out.println("[info] Found proxy: "+matcher.group(1)+":"+matcher.group(2));
+                LogReceiver.getInstance().info("Found proxy: "+matcher.group(1)+":"+matcher.group(2));
                 InetSocketAddress addr = new InetSocketAddress(matcher.group(1),Integer.parseInt(matcher.group(2)));
                 if(isValidProxy(addr)) {
+                    LogReceiver.getInstance().info("Proxy test connection success, need "+n+" more...");
                     proxies.add(addr);
                     n--;
                 }
             }
         } catch (IOException e) {
             e.printStackTrace();
+            LogReceiver.getInstance().error("Cannot obtain proxy list");
             throw new IllegalStateException("Cannot obtain proxy list");
         }
     }
