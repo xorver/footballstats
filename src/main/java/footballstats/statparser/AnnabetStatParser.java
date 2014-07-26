@@ -41,6 +41,7 @@ public class AnnabetStatParser implements StatParser {
 
     @Override
     public List<String> getDates() {
+        this.updateStats();
         HashSet<String> dates = new HashSet<>();
         Pattern pattern = Pattern.compile(DATE_TIME_REGEX);
         Matcher matcher = pattern.matcher(fullPage);
@@ -52,6 +53,7 @@ public class AnnabetStatParser implements StatParser {
 
     @Override
     public List<MatchId> getDayMatches(String date) {
+        this.updateStats();
         List<MatchId> matches = new ArrayList<>();
         Pattern pattern = Pattern.compile(FULL_REGEX,Pattern.DOTALL);
         Matcher matcher = pattern.matcher(fullPage);

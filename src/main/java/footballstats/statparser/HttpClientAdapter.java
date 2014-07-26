@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.*;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -83,6 +84,7 @@ public class HttpClientAdapter {
 
     private void findRandomProxies(int n){
         try {
+            proxies.clear();
             URL obj = new URL(PROXY_ADDRESS_PROVIDER);
             HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 
@@ -91,12 +93,19 @@ public class HttpClientAdapter {
             Pattern pattern = Pattern.compile(PROXY_REGEX);
             Matcher matcher = pattern.matcher(page);
             LogReceiver.getInstance().info("Found proxy list");
-            while(matcher.find() && n>0){
-                LogReceiver.getInstance().info("Found proxy: "+matcher.group(1)+":"+matcher.group(2));
-                InetSocketAddress addr = new InetSocketAddress(matcher.group(1),Integer.parseInt(matcher.group(2)));
-                if(isValidProxy(addr)) {
+
+            List<InetSocketAddress> all = new ArrayList<>();
+
+            while(matcher.find())
+                all.add(new InetSocketAddress(matcher.group(1),Integer.parseInt(matcher.group(2))));
+
+//            Collections.shuffle(all);
+
+            for(int i=0;i<all.size() && n>0;i++) {
+                LogReceiver.getInstance().info("Found proxy: "+all.get(i).getHostName()+":"+all.get(i).getPort());
+                if(isValidProxy(all.get(i))) {
                     LogReceiver.getInstance().info("Proxy test connection success, need "+n+" more...");
-                    proxies.add(addr);
+                    proxies.add(all.get(i));
                     n--;
                 }
             }

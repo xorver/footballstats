@@ -29,10 +29,12 @@ public class MainWindow extends JFrame implements ActionListener {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         //set
+        mainTextArea.setFont(new Font("Monospaced", Font.PLAIN, 12));
         for(int i=1;i<10;i++)
             countComboBox.addItem(i);
         dateComboBox.setPreferredSize(new Dimension(200, 50));
         countComboBox.setPreferredSize(new Dimension(200, 50));
+        button.setEnabled(false);
         button.setPreferredSize(new Dimension(200,50));
         button.addActionListener(this);
         topPanel.add(countComboBox,BorderLayout.WEST);
@@ -42,7 +44,7 @@ public class MainWindow extends JFrame implements ActionListener {
         mainPanel.add(new JScrollPane(mainTextArea), BorderLayout.CENTER);
         mainPanel.add(new JScrollPane(LogReceiver.getInstance()), BorderLayout.PAGE_END);
         this.setContentPane(mainPanel);
-        this.setPreferredSize(new Dimension(800,600));
+        this.setPreferredSize(new Dimension(1000,600));
         this.setTitle("FootballStats 1.0");
 
         //Display the window.
@@ -57,6 +59,7 @@ public class MainWindow extends JFrame implements ActionListener {
         LogReceiver.getInstance().info("All dates found!");
         dates.forEach(dateComboBox::addItem);
         LogReceiver.getInstance().info("Choose date and compute stats...");
+        button.setEnabled(true);
     }
 
     @Override

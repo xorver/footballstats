@@ -1,6 +1,7 @@
 package footballstats.gui;
 
 import javax.swing.*;
+import java.awt.*;
 import java.lang.reflect.InvocationTargetException;
 
 /**
@@ -15,7 +16,7 @@ public class LogReceiver extends JScrollPane {
         this.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         this.setAutoscrolls(true);
         textArea.setRows(10);
-        textArea.setEditable(false);
+        textArea.setFont(new Font("Monospaced", Font.PLAIN, 12));
     }
 
     public static LogReceiver getInstance(){
