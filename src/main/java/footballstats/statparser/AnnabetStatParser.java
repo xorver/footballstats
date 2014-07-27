@@ -17,7 +17,7 @@ public class AnnabetStatParser implements StatParser {
 
     private final String MATCH_REGEX = "<a [^>]*><img [^>]*> ([^<]+)</a></td><td><a.*?href=\"/pl/.*?/h2h.php\\?team1=(\\d+)&team2=(\\d+)\">";
     private final String DATE_TIME_REGEX = "<td>(\\d+\\.\\d+)\\. (\\d+:\\d+)</td>";
-    private final String FULL_REGEX = MATCH_REGEX + ".*?" + DATE_TIME_REGEX;
+    private final String FULL_REGEX = DATE_TIME_REGEX + ".*?" + MATCH_REGEX;
 
     private final String TEAM_NAME_REGEX = "<title>(.*?) -";
     private final String SCORE_REGEX = "<b>(\\d+) - (\\d+)\\*?</b></a> .*?<td.*?>(.*?)</td>";
@@ -58,8 +58,8 @@ public class AnnabetStatParser implements StatParser {
         Pattern pattern = Pattern.compile(FULL_REGEX,Pattern.DOTALL);
         Matcher matcher = pattern.matcher(fullPage);
         while(matcher.find())
-            if(date.equals(matcher.group(4)))
-                matches.add(new MatchId(matcher.group(2),matcher.group(3)));
+            if(date.equals(matcher.group(1)))
+                matches.add(new MatchId(matcher.group(4),matcher.group(5)));
         return matches;
     }
 
@@ -68,14 +68,13 @@ public class AnnabetStatParser implements StatParser {
         Pattern pattern = Pattern.compile(FULL_REGEX,Pattern.DOTALL);
         Matcher matcher = pattern.matcher(fullPage);
         while(matcher.find())
-            if(id.team1Id.equals(matcher.group(2)) && id.team2Id.equals(matcher.group(3))) {
+            if(id.team1Id.equals(matcher.group(4)) && id.team2Id.equals(matcher.group(5))) {
                 TeamPair pair = getTeams(id.team1Id,id.team2Id);
-                return new Match(matcher.group(1), matcher.group(4), matcher.group(5), pair.t1, pair.t2);
+                return new Match(matcher.group(3), matcher.group(1), matcher.group(2), pair.t1, pair.t2);
             }
         return null;
     }
 
-    //todo repair http://annabet.com/pl/soccerstats/h2h.php?team1=232&team2=3061
     public TeamPair getTeams(String id1, String id2) {
         String teamPage = clientAdapter.doGetRequestByProxy(TEAMS_URL.replace("{{id1}}", id1).replace("{{id2}}",id2));
         Matcher nameMatcher = Pattern.compile(TEAMS_NAME_REGEX).matcher(teamPage);
