@@ -49,11 +49,8 @@ public class FullRoster {
                 matchByLeague.put(match.getLeague(),list);
             }
         }
+        builder.append(String.format("%-40s %-10s %-10s %-10s\n", "Zespół", "Z", "P", "R"));
         for(Map.Entry<String,List<Match> > entry : matchByLeague.entrySet()) {
-            builder.append("\n");
-            builder.append(String.format("Liga: %s\n", entry.getKey()));
-            builder.append(String.format("%-40s %-10s %-10s %-10s\n", "Zespół", "Z", "P", "R"));
-
             for(Match match : entry.getValue()) {
                 builder.append(String.format("%-40s %-10s %-10s %-10s\n",
                         match.getTeam1().getName(),
