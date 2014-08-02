@@ -37,7 +37,7 @@ public class AnnabetStatParserTest {
         Mockito.when(httpClientMock.doGetRequestByProxy("http://annabet.com/pl/soccerstats/h2h.php?team1=5132&team2=1")).thenReturn(team5132Data);
         Mockito.when(httpClientMock.doGetRequestByProxy("http://annabet.com/pl/soccerstats/h2h.php?team1=5130&team2=5132")).thenReturn(team5130And5132Data);
 
-        underTest = new AnnabetStatParser(httpClientMock);
+        underTest = new AnnabetStatParser(httpClientMock, SportType.FOOTBALL);
     }
 
     @org.junit.Test
@@ -63,7 +63,7 @@ public class AnnabetStatParserTest {
 
     @org.junit.Test
     public void testGetDayMatches() throws Exception {
-        MatchId id = new MatchId("5130","5132");
+        MatchId id = new MatchId(team1Id,team2Id);
 
         List<MatchId> matches6_7 = underTest.getDayMatches("6.7");
         List<MatchId> matches7_7 = underTest.getDayMatches("7.7");
@@ -74,7 +74,7 @@ public class AnnabetStatParserTest {
 
     @org.junit.Test
     public void testGetMatch() throws Exception {
-        MatchId id = new MatchId("5130","5132");
+        MatchId id = new MatchId(team1Id,team2Id);
 
         Match match = underTest.getMatch(id);
 
@@ -88,7 +88,7 @@ public class AnnabetStatParserTest {
     @org.junit.Test
     public void testGetTeam() throws Exception {
 
-        Team team = underTest.getTeam("5130");
+        Team team = underTest.getTeam(team1Id);
 
         assertEquals("Avangard Kursk",team.getName());
         assertEquals(4,team.getWin(5));

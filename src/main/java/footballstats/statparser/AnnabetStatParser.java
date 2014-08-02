@@ -11,9 +11,13 @@ import java.util.regex.Pattern;
  */
 public class AnnabetStatParser implements StatParser {
 
-    private final String ALL_MATCHES_URL = "http://annabet.com/pl/soccerstats/upcoming/";
-    private final String TEAM_URL = "http://annabet.com/pl/soccerstats/h2h.php?team1={{id}}&team2=1";
-    private final String TEAMS_URL = "http://annabet.com/pl/soccerstats/h2h.php?team1={{id1}}&team2={{id2}}";
+    private final String FOOTBALL_MATCHES_URL = "http://annabet.com/pl/soccerstats/upcoming/";
+    private final String FOOTBALL_TEAM_URL = "http://annabet.com/pl/soccerstats/h2h.php?team1={{id}}&team2=1";
+    private final String FOOTBALL_TEAMS_URL = "http://annabet.com/pl/soccerstats/h2h.php?team1={{id1}}&team2={{id2}}";
+
+    private final String HOCKEY_MATCHES_URL = "http://annabet.com/pl/hockeystats/upcoming/";
+    private final String HOCKEY_TEAM_URL = "http://annabet.com/pl/hockeystats/h2h.php?team1={{id}}&team2=1";
+    private final String HOCKEY_TEAMS_URL = "http://annabet.com/pl/hockeystats/h2h.php?team1={{id1}}&team2={{id2}}";
 
     private final String MATCH_REGEX = "<a [^>]*><img [^>]*> ([^<]+)</a></td><td><a.*?href=\"/pl/.*?/h2h.php\\?team1=(\\d+)&team2=(\\d+)\">";
     private final String DATE_TIME_REGEX = "<td>(\\d+\\.\\d+)\\. (\\d+:\\d+)</td>";
@@ -25,30 +29,42 @@ public class AnnabetStatParser implements StatParser {
     private final String TEAMS_NAME_REGEX = "<title>(.*?) - (.*?)( :|,)";
     private final String SCORES_REGEX = "title=\"([^<]*?) - ([^<]*?) (O |Ø |\")[^<]*?<b>(\\d+) - (\\d+)";
 
+    private String teamUrl;
+    private String teamsUrl;
+    private String allMatchesUrl;
     private HttpClientAdapter clientAdapter;
     private String fullPage;
 
-    public AnnabetStatParser(HttpClientAdapter clientAdapter) {
+    public AnnabetStatParser(HttpClientAdapter clientAdapter,SportType type) {
         this.clientAdapter = clientAdapter;
-
+        if(type == SportType.FOOTBALL) {
+            this.allMatchesUrl = FOOTBALL_MATCHES_URL;
+            this.teamUrl = FOOTBALL_TEAM_URL;
+            this.teamsUrl = FOOTBALL_TEAMS_URL;
+        }
+        else if(type == SportType.HOCKEY) {
+            this.allMatchesUrl = HOCKEY_MATCHES_URL;
+            this.teamUrl = HOCKEY_TEAM_URL;
+            this.teamsUrl = HOCKEY_TEAMS_URL;
+        }
         updateStats();
     }
 
     @Override
     public void updateStats() {
-        fullPage = clientAdapter.doGetRequestByProxy(ALL_MATCHES_URL);
+        fullPage = clientAdapter.doGetRequestByProxy(allMatchesUrl);
     }
 
     @Override
     public List<String> getDates() {
-        this.updateStats();
-        HashSet<String> dates = new HashSet<>();
+        List<String> dates = new ArrayList<>();
         Pattern pattern = Pattern.compile(DATE_TIME_REGEX);
         Matcher matcher = pattern.matcher(fullPage);
         while(matcher.find())
-            dates.add(matcher.group(1));
+            if(!dates.contains(matcher.group(1)))
+                dates.add(matcher.group(1));
 
-        return new ArrayList<>(dates);
+        return dates;
     }
 
     @Override
@@ -76,7 +92,7 @@ public class AnnabetStatParser implements StatParser {
     }
 
     public TeamPair getTeams(String id1, String id2) {
-        String teamPage = clientAdapter.doGetRequestByProxy(TEAMS_URL.replace("{{id1}}", id1).replace("{{id2}}",id2));
+        String teamPage = clientAdapter.doGetRequestByProxy(teamsUrl.replace("{{id1}}", id1).replace("{{id2}}", id2));
         Matcher nameMatcher = Pattern.compile(TEAMS_NAME_REGEX).matcher(teamPage);
         String team1Name = "cannot_parse";
         String team2Name = "cannot_parse";
@@ -104,7 +120,7 @@ public class AnnabetStatParser implements StatParser {
     }
     @Override
     public Team getTeam(String id) {
-        String teamPage = clientAdapter.doGetRequestByProxy(TEAM_URL.replace("{{id}}", id));
+        String teamPage = clientAdapter.doGetRequestByProxy(teamUrl.replace("{{id}}", id));
         Matcher nameMatcher = Pattern.compile(TEAM_NAME_REGEX).matcher(teamPage);
         String teamName = "cannot_parse";
         if(nameMatcher.find())
