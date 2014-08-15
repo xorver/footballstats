@@ -3,7 +3,10 @@ package footballstats.core;
 import footballstats.gui.LogReceiver;
 import footballstats.statparser.StatParser;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created by Tomasz Lichon on 06.07.14.

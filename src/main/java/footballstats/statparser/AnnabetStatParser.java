@@ -1,8 +1,12 @@
 package footballstats.statparser;
 
-import footballstats.core.*;
+import footballstats.core.Match;
+import footballstats.core.MatchId;
+import footballstats.core.Score;
+import footballstats.core.Team;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

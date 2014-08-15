@@ -4,7 +4,6 @@ import footballstats.core.Match;
 import footballstats.core.MatchId;
 import footballstats.core.Team;
 
-import java.util.Date;
 import java.util.List;
 
 /**

@@ -2,7 +2,6 @@ package footballstats.gui;
 
 import javax.swing.*;
 import java.awt.*;
-import java.lang.reflect.InvocationTargetException;
 
 /**
  * Created by Tomasz Lichon on 24.07.14.

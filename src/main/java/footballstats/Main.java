@@ -1,11 +1,6 @@
 package footballstats;
 
-import footballstats.core.FullRoster;
 import footballstats.gui.MainWindow;
-import footballstats.statparser.AnnabetStatParser;
-import footballstats.statparser.HttpClientAdapter;
-
-import java.util.Scanner;
 
 /**
  * Created by Tomasz Lichon on 13.07.14.

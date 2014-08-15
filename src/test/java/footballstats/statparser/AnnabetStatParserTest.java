@@ -97,7 +97,7 @@ public class AnnabetStatParserTest {
     }
 
     private String getResourceData(String resourceName) throws FileNotFoundException {
-        return new Scanner(new File(getClass().getResource(resourceName).getFile())).useDelimiter("\\A").next();
+        return new Scanner(new File(getClass().getResource(resourceName).getFile()),"utf-8").useDelimiter("\\A").next();
     }
 
 }
