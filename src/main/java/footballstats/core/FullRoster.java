@@ -3,10 +3,7 @@ package footballstats.core;
 import footballstats.gui.LogReceiver;
 import footballstats.statparser.StatParser;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by Tomasz Lichon on 06.07.14.
@@ -26,6 +23,7 @@ public class FullRoster {
         return statParser.getDates();
     }
 
+    @SuppressWarnings("unchecked")
     public String dayMatches(String date, int pastMatches){
         matchByLeague.clear();
         StringBuilder builder = new StringBuilder();
@@ -53,7 +51,10 @@ public class FullRoster {
             }
         }
         builder.append(String.format("%-40s %-10s %-10s %-10s\n", "Zespół", "Z", "P", "R"));
-        for(Map.Entry<String,List<Match> > entry : matchByLeague.entrySet()) {
+
+        List<Map.Entry<String,List<Match> >> leaguesInAlphabeticalOrder = new ArrayList(matchByLeague.entrySet());
+        Collections.sort(leaguesInAlphabeticalOrder, (o1, o2) -> (o1.getKey().compareTo( o2.getKey() )) );
+        for(Map.Entry<String,List<Match> > entry : leaguesInAlphabeticalOrder) {
             for(Match match : entry.getValue()) {
                 builder.append(String.format("%-40s %-10s %-10s %-10s\n",
                         match.getTeam1().getName(),
