@@ -31,7 +31,7 @@ public class AnnabetStatParser implements StatParser {
     private final String SCORE_REGEX = "<b>(\\d+) - (\\d+)\\*?</b></a> .*?<td.*?>(.*?)</td>";
 
     private final String TEAMS_NAME_REGEX = "<title>(.*?) - (.*?)( :|,)";
-    private final String SCORES_REGEX = "title=\"([^<]*?) - ([^<]*?) (O |Ø |\")[^<]*?<b>(\\d+) - (\\d+)";
+    private final String SCORES_REGEX = "title=\"([^<]*?) - ([^<]*?) (O |Ø |\")[^<]*?<b>(\\d+) - (\\d+)(d)?";
 
     private String teamUrl;
     private String teamsUrl;
@@ -113,13 +113,13 @@ public class AnnabetStatParser implements StatParser {
         int n=18;
         while(matcher.find() && n-->0)
             if(team1Name.equals(matcher.group(1)))
-                scores1.add(new Score(Integer.valueOf(matcher.group(4)), Integer.valueOf(matcher.group(5))));
+                scores1.add(new Score(Integer.valueOf(matcher.group(4)), matcher.group(6) != null ? Integer.valueOf(matcher.group(4)) : Integer.valueOf(matcher.group(5)) ));
             else if(team1Name.equals(matcher.group(2)))
-                scores1.add(new Score(Integer.valueOf(matcher.group(5)), Integer.valueOf(matcher.group(4))));
+                scores1.add(new Score(Integer.valueOf(matcher.group(5)), matcher.group(6) != null ? Integer.valueOf(matcher.group(5)) : Integer.valueOf(matcher.group(4))));
             else if(team2Name.equals(matcher.group(1)))
-                scores2.add(new Score(Integer.valueOf(matcher.group(4)), Integer.valueOf(matcher.group(5))));
+                scores2.add(new Score(Integer.valueOf(matcher.group(4)), matcher.group(6) != null ? Integer.valueOf(matcher.group(4)) : Integer.valueOf(matcher.group(5))));
             else if(team2Name.equals(matcher.group(2)))
-                scores2.add(new Score(Integer.valueOf(matcher.group(5)), Integer.valueOf(matcher.group(4))));
+                scores2.add(new Score(Integer.valueOf(matcher.group(5)), matcher.group(6) != null ? Integer.valueOf(matcher.group(5)) : Integer.valueOf(matcher.group(4))));
         return new TeamPair(new Team(team1Name,scores1), new Team(team2Name,scores2));
     }
     @Override
